@@ -6,7 +6,7 @@ function Home() {
   return (
     <div className="home">
       <Header />
-      <h1>I am HOME</h1>
+      <h1>I am HOME. You will need to delete me later</h1>
     </div>
   );
 }
