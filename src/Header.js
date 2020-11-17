@@ -8,10 +8,22 @@ function Header() {
         <span>MC</span>
       </div>
       <div className="header__right">
-        <h3>Home</h3>
-        <h3>About</h3>
-        <h3>Projects</h3>
-        <h3>Contact</h3>
+        <p>
+          <span>01.</span> Home
+        </p>
+        <p>
+          {" "}
+          <span>02.</span> About
+        </p>
+        <p>
+          {" "}
+          <span>03.</span> Projects
+        </p>
+        <p>
+          {" "}
+          <span>04.</span> Contact
+        </p>
+        <button>Resume</button>
       </div>
     </div>
   );

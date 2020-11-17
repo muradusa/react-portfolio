@@ -1,12 +1,20 @@
 import React from "react";
 import "./Home.css";
-import Header from "./Header";
 
 function Home() {
   return (
     <div className="home">
-      <Header />
-      <h1>I am HOME. You will need to delete me later</h1>
+      <div className="home__hero">
+        <p>
+          Hi, I'm <span>MURAD CHOLUKOV</span> .
+        </p>
+        <p>I build things for the web.</p>
+        <p className="hero__text">
+          I'm a software engineer based in San Francisco, CA specializing in
+          building (and occasionally designing) exceptional websites,
+          applications, and everything in between.
+        </p>
+      </div>
     </div>
   );
 }
