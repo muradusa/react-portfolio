@@ -12,17 +12,25 @@
   font-size: 50px;
   color: green;
 }
+.header__left:hover {
+  color: white;
+}
 
 .header__right {
   display: flex;
   align-items: baseline;
   padding: 10px;
   font-size: 16px;
+  font-family: poppin;
 }
 
 .header__right p {
   padding-right: 10px;
   color: white;
+}
+
+.header__right p:hover {
+  color: green;
 }
 .header__right span {
   color: green;
@@ -34,4 +42,10 @@
   background-color: transparent;
   border: 1px solid white;
   font-size: 16px;
+  border-radius: 5px;
+}
+
+.header__right button:hover {
+  color: white;
+  border: 1px solid green;
 }

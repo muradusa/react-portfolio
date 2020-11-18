@@ -4,17 +4,56 @@
 
 .main__left {
   display: flex;
-  flex: 0.2;
+  flex-direction: column;
+  flex: 0.1;
+  justify-content: flex-end;
+  align-items: center;
   color: white;
+}
+
+.MuiSvgIcon-root {
+  padding: 15px;
+}
+.MuiSvgIcon-root:hover {
+  color: green;
+}
+.line {
+  height: 100px;
+  border-left: 2px solid white;
+  padding-top: 50px;
+  margin-top: 25px;
 }
 
 .main__center {
   display: flex;
   flex: 1;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
 .main__right {
   display: flex;
-  flex: 0.2;
+  flex-direction: column;
+  flex: 0.1;
+
   color: white;
+}
+
+.email {
+  display: flex;
+  flex: 1;
+  writing-mode: vertical-rl;
+  letter-spacing: 2px;
+  font-size: 16px;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 15px;
+}
+
+.email:hover {
+  color: green;
+}
+.main__right span {
+  position: relative;
+  left: 49%;
 }

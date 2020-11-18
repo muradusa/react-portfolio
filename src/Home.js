@@ -6,7 +6,8 @@ function Home() {
     <div className="home">
       <div className="home__hero">
         <p>
-          Hi, I'm <span>MURAD CHOLUKOV.</span>
+          <span className="greeting">Hi, my name is</span> <br />{" "}
+          <span className="animatedText">MURAD CHOLUKOV.</span>
         </p>
         <p>I build things for the web.</p>
         <p className="hero__text">
@@ -14,6 +15,7 @@ function Home() {
           building (and occasionally designing) exceptional websites,
           applications, and everything in between.
         </p>
+        <button>Get In Touch</button>
       </div>
     </div>
   );

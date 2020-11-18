@@ -5,7 +5,7 @@ function Header() {
   return (
     <div className="header">
       <div className="header__left">
-        <span>MC</span>
+        <span className="animatedText">MC</span>
       </div>
       <div className="header__right">
         <p>
