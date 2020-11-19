@@ -1,0 +1,43 @@
+.about {
+  color: white;
+  height: 100vh;
+}
+
+.about__info {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+.about__header {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 30px;
+}
+
+.about__bio p {
+}
+
+.titleLine {
+  width: 150px;
+  border-top: 1px solid white;
+  transform: translateY(-5px);
+}
+
+.about__section {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.about__photo {
+  display: flex;
+  place-content: center;
+  width: 100%;
+}
+
+.about__photo img {
+  height: 200px;
+  width: 200px;
+
+  object-fit: contain;
+}
