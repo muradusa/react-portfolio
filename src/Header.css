@@ -2,9 +2,15 @@
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  margin-left: 20px;
-  margin-right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
   background-color: transparent;
+}
+
+.header__scroll {
+  top: -50px;
+}
+.header__container {
 }
 
 .header__left {
@@ -21,7 +27,7 @@
   align-items: baseline;
   padding: 10px;
   font-size: 16px;
-  font-family: poppin;
+  /* font-family: poppin; */
 }
 
 .header__right p {

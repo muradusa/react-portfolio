@@ -1,5 +1,6 @@
 .main {
   display: flex;
+  height: 90vh;
 }
 
 .main__left {
@@ -9,6 +10,7 @@
   justify-content: flex-end;
   align-items: center;
   color: white;
+  height: 90vh;
 }
 
 .MuiSvgIcon-root {
@@ -26,16 +28,30 @@
 
 .main__center {
   display: flex;
+  flex-direction: column;
   flex: 1;
   padding-left: 150px;
   padding-right: 150px;
+  overflow: scroll;
 }
 
+/* Hide scrollbar for Chrome, Safari, and Opera */
+
+.main__center::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge, and Firefox */
+
+.main__center {
+  -ms-overflow-style: none; /*EI and Edge */
+  scrollbar-width: none; /*Firefox */
+}
 .main__right {
   display: flex;
   flex-direction: column;
   flex: 0.1;
-
+  height: 90vh;
   color: white;
 }
 

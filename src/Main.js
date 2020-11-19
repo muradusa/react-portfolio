@@ -18,6 +18,8 @@ function Main() {
       </div>
       <div className="main__center">
         <Home />
+        <Home />
+        <Home />
       </div>
       <div className="main__right">
         <div className="email">muradwebdev@gmail.com</div>
