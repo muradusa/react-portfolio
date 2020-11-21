@@ -56,6 +56,13 @@ function About() {
           </div>
         </div>
       </div>
+      <div className="github">
+        <img
+          style={{ height: "100px", objectFit: "contain", paddingTop: "25px" }}
+          src="http://ghchart.rshah.org/1D7912/muradusa"
+          alt="Murad Cholukov's Github"
+        />
+      </div>
     </div>
   );
 }
