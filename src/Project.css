@@ -7,9 +7,51 @@
   flex: 1;
 }
 
+.image img {
+  width: 100%;
+  height: 400px;
+}
+
 .info {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   flex: 1;
+}
+
+.info__title p {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  font-family: monospace;
+  color: rgb(212, 238, 214);
+}
+.info__title p:hover {
+  color: green;
+}
+
+.info__description {
+  font-size: 20px;
+  color: rgb(209, 202, 202);
+  background-color: rgb(52, 52, 75);
+  height: 150px;
+  width: 110%;
+  opacity: 0.98;
+  padding: 20px;
+  flex: 1;
+  margin-bottom: 25px;
+  display: grid;
+  place-content: center;
+}
+
+.info__tech {
+  display: flex;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+
+.info__tech p {
+  margin-left: 8px;
+  font-family: monospace;
+  color: rgb(158, 185, 160);
 }

@@ -13,9 +13,5 @@
   align-items: baseline;
   margin-top: 100px;
   margin-bottom: 30px;
-}
-
-.github img {
-  height: 100px;
-  object-fit: contain;
+  font-family: monospace;
 }
