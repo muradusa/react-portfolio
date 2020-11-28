@@ -31,7 +31,6 @@
 }
 
 .info__description {
-  font-size: 20px;
   color: rgb(209, 202, 202);
   background-color: rgb(52, 52, 75);
   height: 150px;
@@ -42,6 +41,11 @@
   margin-bottom: 25px;
   display: grid;
   place-content: center;
+}
+
+.info__description p {
+  font-size: 20px;
+  font-weight: 100;
 }
 
 .info__tech {
