@@ -4,6 +4,8 @@ import project from "./images/giphy.gif";
 import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 import GitHubIcon from "@material-ui/icons/GitHub";
 
+// Delete later
+
 function Project() {
   return (
     <div className="project">
