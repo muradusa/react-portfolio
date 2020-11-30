@@ -1,12 +1,10 @@
 import React from "react";
 import "./Project.css";
-import project from "./images/giphy.gif";
+import project from "./images/amazon.png";
 import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 import GitHubIcon from "@material-ui/icons/GitHub";
 
-// Delete later
-
-function Project() {
+function Project1() {
   return (
     <div className="project">
       <div className="image">
@@ -38,4 +36,4 @@ function Project() {
   );
 }
 
-export default Project;
+export default Project1;

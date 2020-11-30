@@ -50,6 +50,7 @@
   border: 5px solid green;
 
   box-shadow: 10px 10px 10px rgb(214, 209, 209);
+  border-radius: 10px;
 }
 .about__photo img:hover {
   border: 5px solid white;
@@ -79,4 +80,10 @@
 
 .tech ul li:hover {
   color: green;
+}
+
+.github {
+  display: flex;
+  flex: 1;
+  /* justify-content: center; */
 }

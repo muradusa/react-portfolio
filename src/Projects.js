@@ -1,6 +1,8 @@
 import React from "react";
 import "./Projects.css";
-import Project from "./Project.js";
+import Project1 from "./Project1.js";
+import Project2 from "./Project2.js";
+import Project3 from "./Project3";
 
 function Projects() {
   return (
@@ -11,7 +13,9 @@ function Projects() {
         <span className="titleLine"></span>
       </div>
       <div className="projects__body">
-        <Project />
+        <Project1 />
+        <Project2 />
+        <Project3 />
       </div>
     </div>
   );
