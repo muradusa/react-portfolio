@@ -3,6 +3,7 @@ import "./Projects.css";
 import Project1 from "./Project1.js";
 import Project2 from "./Project2.js";
 import Project3 from "./Project3";
+import OtherProject from "./OtherProject";
 
 function Projects() {
   return (
@@ -16,6 +17,14 @@ function Projects() {
         <Project1 />
         <Project2 />
         <Project3 />
+      </div>
+      <div className="projects__other">
+        <div className="projects__otherTitle">
+          <p>Other Things i Built</p>
+        </div>
+        <div className="projects__otherProjects">
+          <OtherProject />
+        </div>
       </div>
     </div>
   );
