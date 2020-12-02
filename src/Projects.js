@@ -20,10 +20,69 @@ function Projects() {
       </div>
       <div className="projects__other">
         <div className="projects__otherTitle">
-          <p>Other Things i Built</p>
+          <p>Other Things I Built</p>
         </div>
         <div className="projects__otherProjects">
-          <OtherProject />
+          <div className="otherProjects__item">
+            <OtherProject
+              title="Facebook Clone"
+              description="This is a facebook clone, built with MERN. Check it out!!!"
+              tech1="Mongod DB"
+              tech2="React"
+              tech3="Express"
+              tech4="Node"
+            />
+          </div>
+          <div className="otherProjects__item">
+            <OtherProject
+              title="Facebook Clone"
+              description="This is a facebook clone, built with MERN. Check it out!!!"
+              tech1="Mongod DB"
+              tech2="React"
+              tech3="Express"
+              tech4="Node"
+            />
+          </div>
+          <div className="otherProjects__item">
+            <OtherProject
+              title="Youtube Clone"
+              description="This is a youtube clone, built with MERN. Check it out!!!"
+              tech1="Mongod DB"
+              tech2="React"
+              tech3="Express"
+              tech4="Node"
+            />
+          </div>
+          <div className="otherProjects__item">
+            <OtherProject
+              title="Facebook Clone"
+              description="This is a facebook clone, built with MERN. Check it out!!!"
+              tech1="Mongod DB"
+              tech2="React"
+              tech3="Express"
+              tech4="Node"
+            />
+          </div>
+          <div className="otherProjects__item">
+            <OtherProject
+              title="Facebook Clone"
+              description="This is a facebook clone, built with MERN. Check it out!!!"
+              tech1="Mongod DB"
+              tech2="React"
+              tech3="Express"
+              tech4="Node"
+            />
+          </div>
+          <div className="otherProjects__item">
+            <OtherProject
+              title="Facebook Clone"
+              description="This is a facebook clone, built with MERN. Check it out!!!"
+              tech1="Mongod DB"
+              tech2="React"
+              tech3="Express"
+              tech4="Node"
+            />
+          </div>
         </div>
       </div>
     </div>

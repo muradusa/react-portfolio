@@ -1,0 +1,39 @@
+.otherProject {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 15px;
+  background-color: rgb(52, 52, 75);
+  border-radius: 10px;
+}
+
+/* .MuiSvgIcon-root {
+  padding: 0;
+} */
+.project__icons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.project__title {
+  margin-bottom: 10px;
+  font-family: monospace;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(212, 238, 214);
+}
+.project__description {
+  font-size: 18px;
+}
+
+.project__tech {
+  display: flex;
+  margin-top: 10px;
+}
+.project__tech p {
+  margin-right: 10px;
+  font-family: monospace;
+  color: rgb(158, 185, 160);
+  font-size: 16px;
+}
