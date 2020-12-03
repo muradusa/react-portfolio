@@ -7,6 +7,7 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import About from "./About";
 import Projects from "./Projects";
+import Contact from "./Contact";
 
 function Main() {
   return (
@@ -22,6 +23,7 @@ function Main() {
         <Home />
         <About />
         <Projects />
+        <Contact />
       </div>
       <div className="main__right">
         <div className="email">muradwebdev@gmail.com</div>
