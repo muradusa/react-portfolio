@@ -11,7 +11,9 @@
 }
 
 .hero__text {
-  font-size: 20px;
+  font-family: monospace;
+  color: rgb(158, 185, 160);
+  font-size: 18px;
   width: 70%;
   padding-top: 50px;
 }
@@ -33,8 +35,9 @@
 }
 
 .greeting {
+  font-family: monospace;
+  color: rgb(158, 185, 160);
   font-size: 26px;
-  color: green;
 }
 .animatedText {
   /* position: absolute;
