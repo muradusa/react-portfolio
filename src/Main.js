@@ -8,6 +8,7 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import About from "./About";
 import Projects from "./Projects";
 import Contact from "./Contact";
+import Experience from "./Experience";
 
 function Main() {
   return (
@@ -22,6 +23,7 @@ function Main() {
       <div className="main__center">
         <Home />
         <About />
+        <Experience />
         <Projects />
         <Contact />
       </div>

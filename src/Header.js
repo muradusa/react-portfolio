@@ -22,11 +22,11 @@ function Header() {
       </div>
       <div className="header__right">
         <p>
-          <span>01.</span> Home
+          <span>01.</span> About
         </p>
         <p>
           {" "}
-          <span>02.</span> About
+          <span>02.</span> Experience
         </p>
         <p>
           {" "}
