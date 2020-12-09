@@ -10,6 +10,10 @@
   margin-top: 40px;
 }
 
+.work {
+  display: flex;
+}
+
 .panel {
   color: white;
   padding: 10px;
@@ -17,9 +21,32 @@
 
 .title {
   background-color: rgb(52, 52, 75);
-  color: white;
+  font-family: monospace;
+  color: rgb(212, 238, 214);
+  font-size: 20px;
   padding: 10px;
   border: 1px solid green;
-  margin: 2px;
+  margin: 1px;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+.date {
+  padding: 5px 5px 5px 0;
+  font-family: monospace;
+  color: rgb(227, 243, 229);
+  font-size: 16px;
+}
+
+.experience__item {
+  font-family: monospace;
+  color: rgb(212, 238, 214);
+  font-size: 16px;
+}
+
+.company {
+  font-family: monospace;
+  color: rgb(212, 238, 214);
+  font-size: 18px;
+  font-weight: 300;
 }

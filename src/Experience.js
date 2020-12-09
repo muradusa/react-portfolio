@@ -22,14 +22,17 @@ function Experience() {
         <span className="titleLine"></span>
       </div>
       <Accordion>
+        {/* <div className="work"> */}
         <AccordionItem>
           <AccordionItemHeading>
-            <AccordionItemButton className="title">Job # 1</AccordionItemButton>
+            <AccordionItemButton className="title">
+              Freelance Developer
+            </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel className="panel">
-            <h3>Freelance Developer</h3>
-            <p>January - April 2018</p>
-            <ul>
+            <h3 className="company">Murad Webdev Inc</h3>
+            <p className="date">Jan 2018 - April 2020</p>
+            <ul className="experience__item">
               <li>
                 Worked with a team of three designers to build a marketing
                 website and e-commerce platform for blistabloc, an ambitious
@@ -48,12 +51,14 @@ function Experience() {
         </AccordionItem>
         <AccordionItem>
           <AccordionItemHeading>
-            <AccordionItemButton className="title">Job # 2</AccordionItemButton>
+            <AccordionItemButton className="title">
+              Project Engineer
+            </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel className="panel">
-            <h3>Freelance Developer</h3>
-            <p>January - April 2018</p>
-            <ul>
+            <h3 className="company">W.E. Lyons Construction</h3>
+            <p className="date">Jan 2018 - April 2020</p>
+            <ul className="experience__item">
               <li>
                 Worked with a team of three designers to build a marketing
                 website and e-commerce platform for blistabloc, an ambitious
@@ -72,12 +77,14 @@ function Experience() {
         </AccordionItem>
         <AccordionItem>
           <AccordionItemHeading>
-            <AccordionItemButton className="title">Job # 3</AccordionItemButton>
+            <AccordionItemButton className="title">
+              MWD Engineer
+            </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel className="panel">
-            <h3>Freelance Developer</h3>
-            <p>January - April 2018</p>
-            <ul>
+            <h3 className="company">Halliburton</h3>
+            <p className="date">Jan 2018 - April 2020</p>
+            <ul className="experience__item">
               <li>
                 Worked with a team of three designers to build a marketing
                 website and e-commerce platform for blistabloc, an ambitious
@@ -94,30 +101,7 @@ function Experience() {
             </ul>
           </AccordionItemPanel>
         </AccordionItem>
-        <AccordionItem>
-          <AccordionItemHeading>
-            <AccordionItemButton className="title">Job # 4</AccordionItemButton>
-          </AccordionItemHeading>
-          <AccordionItemPanel className="panel">
-            <h3>Freelance Developer</h3>
-            <p>January - April 2018</p>
-            <ul>
-              <li>
-                Worked with a team of three designers to build a marketing
-                website and e-commerce platform for blistabloc, an ambitious
-                startup originating from Northeastern
-              </li>
-              <li>
-                Helped solidify a brand direction for blistabloc that spans both
-                packaging and web
-              </li>
-              <li>
-                Interfaced with clients on a weekly basis, providing
-                technological expertise
-              </li>
-            </ul>
-          </AccordionItemPanel>
-        </AccordionItem>
+        {/* </div> */}
       </Accordion>
       );
     </div>
