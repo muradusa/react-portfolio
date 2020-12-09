@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import myImg from "./images/me1.jpg";
+import myImg from "./images/fullBody.png";
 import code from "./images/code.png";
 
 function About() {
@@ -28,40 +28,45 @@ function About() {
               of interesting and meaningful projects on a daily basis.
             </p>
           </div>
+          <div className="about__tech">
+            <p>Here are a few technologies I've been working with recently:</p>
+            <div className="technologies">
+              <div className="tech">
+                <ul
+                // style={{
+                //   listStyleImage: `url(${code})`,
+                // }}
+                >
+                  <li>JavaScript</li>
+                  <li>React</li>
+                  <li>Node.js</li>
+                </ul>
+              </div>
+              <div className="tech">
+                <ul>
+                  <li>HTML & CSS</li>
+                  <li>Firebase</li>
+                  <li>Express.js</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div className="github">
+            <img
+              style={{
+                height: "100px",
+                objectFit: "contain",
+                paddingTop: "25px",
+              }}
+              src="http://ghchart.rshah.org/1D7912/muradusa"
+              alt="Murad Cholukov's Github"
+            />
+          </div>
         </div>
+
         <div className="about__photo">
           <img src={myImg} alt="" />
         </div>
-      </div>
-      <div className="about__tech">
-        <p>Here are a few technologies I've been working with recently:</p>
-        <div className="technologies">
-          <div className="tech">
-            <ul
-            // style={{
-            //   listStyleImage: `url(${code})`,
-            // }}
-            >
-              <li>JavaScript</li>
-              <li>React</li>
-              <li>Node.js</li>
-            </ul>
-          </div>
-          <div className="tech">
-            <ul>
-              <li>HTML & CSS</li>
-              <li>Firebase</li>
-              <li>Express.js</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div className="github">
-        <img
-          style={{ height: "100px", objectFit: "contain", paddingTop: "25px" }}
-          src="http://ghchart.rshah.org/1D7912/muradusa"
-          alt="Murad Cholukov's Github"
-        />
       </div>
     </div>
   );
