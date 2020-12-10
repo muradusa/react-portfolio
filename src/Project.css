@@ -34,8 +34,8 @@
   color: rgb(209, 202, 202);
   background-color: rgb(52, 52, 75);
   height: 150px;
-  width: 110%;
-  opacity: 0.68;
+  width: 100%;
+  /* opacity: 0.8; */
   padding: 20px;
   flex: 1;
   margin-bottom: 25px;

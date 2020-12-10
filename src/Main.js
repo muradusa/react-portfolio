@@ -5,10 +5,6 @@ import InstagramIcon from "@material-ui/icons/Instagram";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import About from "./About";
-import Projects from "./Projects";
-import Contact from "./Contact";
-import Experience from "./Experience";
 
 function Main() {
   return (
@@ -22,10 +18,6 @@ function Main() {
       </div>
       <div className="main__center">
         <Home />
-        <About />
-        <Experience />
-        <Projects />
-        <Contact />
       </div>
       <div className="main__right">
         <div className="email">muradwebdev@gmail.com</div>

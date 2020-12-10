@@ -1,5 +1,6 @@
 .about {
   color: rgb(209, 202, 202);
+  background-color: rgb(19, 17, 17);
 }
 
 .about__info {
@@ -72,6 +73,7 @@
 }
 .about__tech p {
   margin-bottom: 20px;
+  color: rgb(209, 202, 202);
 }
 
 .technologies {

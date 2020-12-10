@@ -1,11 +1,12 @@
 .main {
   display: flex;
-  height: 90vh;
+  height: 100vh;
   background-color: rgb(19, 17, 17);
 }
 
 .main__left {
   display: flex;
+  position: sticky;
   flex-direction: column;
   flex: 0.1;
   justify-content: flex-end;
@@ -33,24 +34,13 @@
   flex: 1;
   padding-left: 150px;
   padding-right: 150px;
-  overflow: scroll;
+  /* overflow: scroll; */
   padding-bottom: 100px;
 }
 
-/* Hide scrollbar for Chrome, Safari, and Opera */
-
-.main__center::-webkit-scrollbar {
-  display: none;
-}
-
-/* Hide scrollbar for IE, Edge, and Firefox */
-
-.main__center {
-  -ms-overflow-style: none; /*EI and Edge */
-  scrollbar-width: none; /*Firefox */
-}
 .main__right {
   display: flex;
+  position: static;
   flex-direction: column;
   flex: 0.1;
   height: 90vh;

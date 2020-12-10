@@ -1,18 +1,20 @@
 .header {
   display: flex;
+  position: sticky;
+  max-width: 1520px;
+  z-index: 100;
   justify-content: space-between;
   align-items: baseline;
   padding-left: 20px;
   padding-right: 20px;
-  background-color: transparent;
   background-color: rgb(19, 17, 17);
 }
 
-.header__scroll {
+/* .header__scroll {
   top: -50px;
 }
 .header__container {
-}
+} */
 
 .header__left {
   padding: 10px;

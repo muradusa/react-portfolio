@@ -4,7 +4,7 @@ import contactImage from "./images/Me.png";
 
 function Contact() {
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
       <div className="contact__header">
         <span style={{ color: "green", fontSize: "25px" }}>04.</span>
         <h1 style={{ paddingLeft: "15px", paddingRight: "15px" }}>
