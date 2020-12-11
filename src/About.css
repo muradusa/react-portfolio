@@ -1,6 +1,8 @@
 .about {
   color: rgb(209, 202, 202);
   background-color: rgb(19, 17, 17);
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .about__info {

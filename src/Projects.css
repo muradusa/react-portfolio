@@ -1,6 +1,8 @@
 .projects {
   color: white;
   background-color: rgb(19, 17, 17);
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .titleLine {
@@ -12,8 +14,8 @@
 .projects__header {
   display: flex;
   align-items: baseline;
-  margin-top: 100px;
-  margin-bottom: 30px;
+  padding-top: 40px;
+  padding-bottom: 30px;
   font-family: monospace;
 }
 

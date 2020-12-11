@@ -1,5 +1,7 @@
 .experience {
   background-color: rgb(19, 17, 17);
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .experience__header {
@@ -8,7 +10,7 @@
   margin-bottom: 30px;
   font-family: monospace;
   color: white;
-  margin-top: 40px;
+  padding-top: 40px;
 }
 
 .work {
