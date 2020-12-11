@@ -3,22 +3,22 @@ import "./Header.css";
 import { Link } from "react-scroll";
 
 function Header() {
-  // const [show, handleShow] = useState(false);
+  const [show, handleShow] = useState(false);
 
-  // useEffect(() => {
-  //   window.addEventListener("scroll", () => {
-  //     if (window.scrollY > 100) {
-  //       handleShow(true);
-  //     } else handleShow(false);
-  //   });
-  //   return () => {
-  //     window.removeEventListener("scroll");
-  //   };
-  // }, []);
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 100) {
+        handleShow(true);
+      } else handleShow(false);
+    });
+    return () => {
+      window.removeEventListener("scroll");
+    };
+  }, []);
 
   return (
-    // <div className={`header ${show && "header__scroll"}`}>
-    <div className="header">
+    <div className={`header ${show && "header__scroll"}`}>
+      {/* <div className="header"> */}
       <div className="header__left">
         <span className="animatedText">MC</span>
       </div>
@@ -28,7 +28,7 @@ function Header() {
           to="about"
           spy={true}
           smooth={true}
-          offset={-70}
+          offset={-10}
           duration={500}
         >
           <p>
@@ -40,7 +40,7 @@ function Header() {
           to="experience"
           spy={true}
           smooth={true}
-          offset={-70}
+          offset={-10}
           duration={500}
         >
           <p>
@@ -52,7 +52,7 @@ function Header() {
           to="projects"
           spy={true}
           smooth={true}
-          offset={-70}
+          offset={-10}
           duration={500}
         >
           <p>
@@ -64,7 +64,7 @@ function Header() {
           to="contact"
           spy={true}
           smooth={true}
-          offset={-70}
+          offset={-10}
           duration={500}
         >
           <p>
@@ -87,7 +87,6 @@ function Header() {
         <button>Resume</button>
       </div>
     </div>
-    // </div>
   );
 }
 

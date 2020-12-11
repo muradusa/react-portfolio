@@ -1,6 +1,7 @@
 .header {
   display: flex;
   position: sticky;
+  top: 0;
   max-width: 1520px;
   z-index: 100;
   justify-content: space-between;
@@ -11,9 +12,9 @@
 }
 
 /* .header__scroll {
-  top: -50px;
-}
-.header__container {
+  background-color: rgb(52, 52, 75);
+  position: sticky;
+  top: 0;
 } */
 
 .header__left {
