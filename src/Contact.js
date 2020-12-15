@@ -18,7 +18,6 @@ function Contact() {
           want to say hi, feel free to connect.
         </p>
       </div>
-
       <div className="contact__body">
         <div
           className="contact__image"

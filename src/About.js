@@ -2,6 +2,7 @@ import React from "react";
 import "./About.css";
 import myImg from "./images/fullBody2.png";
 import code from "./images/code.png";
+import Tech from "./Tech";
 
 function About() {
   return (
@@ -28,7 +29,8 @@ function About() {
               of interesting and meaningful projects on a daily basis.
             </p>
           </div>
-          <div className="about__tech">
+          <Tech />
+          {/* <div className="about__tech">
             <p>Here are a few technologies I've been working with recently:</p>
             <div className="technologies">
               <div className="tech">
@@ -50,7 +52,7 @@ function About() {
                 </ul>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="github">
             <img
               style={{
