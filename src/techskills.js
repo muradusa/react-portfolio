@@ -7,6 +7,9 @@ import nodeIcon from "./images/node-icon.png";
 import stripeIcon from "./images/stripe-icon.png";
 import gitIcon from "./images/Git.png";
 import trippleIcon from "./images/JS.png";
+import aws from "./images/aws.png";
+import mysql from "./images/mysql.png";
+import heroku from "./images/heroku.png";
 
 export default [
   {
@@ -61,6 +64,24 @@ export default [
     fields: {
       name: "JavaScript",
       image: `${trippleIcon}`,
+    },
+  },
+  {
+    fields: {
+      name: "AWS",
+      image: `${aws}`,
+    },
+  },
+  {
+    fields: {
+      name: "MySQL",
+      image: `${mysql}`,
+    },
+  },
+  {
+    fields: {
+      name: "heroku",
+      image: `${heroku}`,
     },
   },
 ];

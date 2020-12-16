@@ -1,6 +1,6 @@
 import React from "react";
 import "./Project.css";
-import project from "./images/amazon.png";
+import project1 from "./images/netflix-clone.PNG";
 import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 import GitHubIcon from "@material-ui/icons/GitHub";
 
@@ -8,7 +8,7 @@ function Project1() {
   return (
     <div className="project">
       <div className="image">
-        <img src={project} alt="Project Image" />
+        <img src={project1} alt="Project Image" />
       </div>
       <div className="info">
         <div className="info__title">

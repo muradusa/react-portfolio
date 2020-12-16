@@ -30,29 +30,6 @@ function About() {
             </p>
           </div>
           <Tech />
-          {/* <div className="about__tech">
-            <p>Here are a few technologies I've been working with recently:</p>
-            <div className="technologies">
-              <div className="tech">
-                <ul
-                // style={{
-                //   listStyleImage: `url(${code})`,
-                // }}
-                >
-                  <li>JavaScript</li>
-                  <li>React</li>
-                  <li>Node.js</li>
-                </ul>
-              </div>
-              <div className="tech">
-                <ul>
-                  <li>HTML & CSS</li>
-                  <li>Firebase</li>
-                  <li>Express.js</li>
-                </ul>
-              </div>
-            </div>
-          </div> */}
           <div className="github">
             <img
               style={{

@@ -55,8 +55,8 @@
 @media (max-width: 1199.98px) {
   .tech__logos img {
     object-fit: contain;
-    height: 50px;
-    width: 50px;
+    height: 80px;
+    width: 80px;
   }
 }
 
@@ -80,8 +80,8 @@
 
   .tech__logos img {
     object-fit: contain;
-    height: 50px;
-    width: 50px;
+    height: 80px;
+    width: 80px;
   }
 
   .tech__skill {
