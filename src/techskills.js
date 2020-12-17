@@ -9,7 +9,7 @@ import gitIcon from "./images/Git.png";
 import trippleIcon from "./images/JS.png";
 import aws from "./images/aws.png";
 import mysql from "./images/mysql.png";
-import heroku from "./images/heroku.png";
+import materialui from "./images/material_ui.png";
 
 export default [
   {
@@ -80,8 +80,8 @@ export default [
   },
   {
     fields: {
-      name: "heroku",
-      image: `${heroku}`,
+      name: "Material UI",
+      image: `${materialui}`,
     },
   },
 ];
