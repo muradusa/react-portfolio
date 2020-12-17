@@ -30,7 +30,7 @@
   align-items: baseline;
   padding-left: 20px;
   padding-right: 20px;
-  background-color: rgb(52, 52, 75);
+  background-color: rgb(24, 24, 36);
 }
 
 .header__left {
@@ -53,6 +53,7 @@
 .header__right p {
   padding-right: 10px;
   color: white;
+  cursor: pointer;
 }
 
 .header__right p:hover {
@@ -69,6 +70,7 @@
   border: 1px solid white;
   font-size: 16px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .header__right button:hover {

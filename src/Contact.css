@@ -113,6 +113,18 @@
   height: 70px;
 }
 
+.upArrow {
+  display: flex;
+  justify-content: center;
+  size: large;
+  padding-top: 20px;
+  color: white;
+}
+
+.upArrow p {
+  font-size: large;
+}
+
 @media screen and (min-width: 375px) and (max-width: 812px) {
   .contact__body {
     display: flex;

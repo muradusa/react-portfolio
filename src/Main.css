@@ -17,6 +17,7 @@
 
 .MuiSvgIcon-root {
   padding: 15px;
+  color: white;
 }
 .MuiSvgIcon-root:hover {
   color: green;

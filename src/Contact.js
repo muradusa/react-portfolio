@@ -1,6 +1,8 @@
 import React from "react";
 import "./Contact.css";
 import contactImage from "./images/Me.png";
+import ArrowUpwardIcon from "@material-ui/icons/ArrowUpward";
+import { Link } from "react-scroll";
 
 function Contact() {
   return (
@@ -50,6 +52,19 @@ function Contact() {
             </button>
           </form>
         </div>
+      </div>
+      <div className="upArrow">
+        <Link
+          activeClass="active"
+          to="home"
+          spy={true}
+          smooth={true}
+          offset={-10}
+          duration={500}
+        >
+          <ArrowUpwardIcon fontSize="large" />
+          <h3>To The Top</h3>
+        </Link>
       </div>
     </div>
   );

@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import { Link } from "react-scroll";
 
 function Home() {
   return (
@@ -15,7 +16,16 @@ function Home() {
           building (and occasionally designing) exceptional websites,
           applications, and everything in between.
         </p>
-        <button>Get In Touch</button>
+        <Link
+          activeClass="active"
+          to="contact"
+          spy={true}
+          smooth={true}
+          offset={-10}
+          duration={500}
+        >
+          <button>Get In Touch</button>
+        </Link>
       </div>
     </div>
   );

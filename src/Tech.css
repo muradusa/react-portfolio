@@ -8,9 +8,9 @@
 }
 
 .tech h2 {
-  color: white;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-  font-size: 2rem;
+  font-family: monospace;
+  color: rgb(212, 238, 214);
+  font-size: 20px;
   font-weight: 500;
   /* border-bottom: 3px solid #11abb0; */
   padding-bottom: 5px;
