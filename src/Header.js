@@ -18,63 +18,60 @@ function Header() {
 
   return (
     <div className={`header ${show && "header__scroll"}`}>
-      {/* <div className="header"> */}
-      <div className="header__container">
-        <div className="header__left">
-          <span className="animatedText">MC</span>
-        </div>
-        <div className="header__right">
-          <Link
-            activeClass="active"
-            to="about"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
-          >
-            <p>
-              <span>01.</span> About
-            </p>
-          </Link>
-          <Link
-            activeClass="active"
-            to="experience"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={500}
-          >
-            <p>
-              <span>02.</span> Experience
-            </p>
-          </Link>
-          <Link
-            activeClass="active"
-            to="projects"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={500}
-          >
-            <p>
-              <span>03.</span> Projects
-            </p>
-          </Link>
-          <Link
-            activeClass="active"
-            to="contact"
-            spy={true}
-            smooth={true}
-            offset={-10}
-            duration={500}
-          >
-            <p>
-              <span>04.</span> Contact
-            </p>
-          </Link>
+      <div className="header__left">
+        <span className="animatedText">MC</span>
+      </div>
+      <div className="header__right">
+        <Link
+          activeClass="active"
+          to="about"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}
+        >
+          <p>
+            <span>01.</span> About
+          </p>
+        </Link>
+        <Link
+          activeClass="active"
+          to="experience"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
+          <p>
+            <span>02.</span> Experience
+          </p>
+        </Link>
+        <Link
+          activeClass="active"
+          to="projects"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
+          <p>
+            <span>03.</span> Projects
+          </p>
+        </Link>
+        <Link
+          activeClass="active"
+          to="contact"
+          spy={true}
+          smooth={true}
+          offset={-10}
+          duration={500}
+        >
+          <p>
+            <span>04.</span> Contact
+          </p>
+        </Link>
 
-          <button>Resume</button>
-        </div>
+        <button>Resume</button>
       </div>
     </div>
   );

@@ -21,7 +21,7 @@ function Experience() {
         </h1>
         <span className="titleLine"></span>
       </div>
-      <Accordion>
+      <Accordion className="accordion">
         {/* <div className="work"> */}
         <AccordionItem>
           <AccordionItemHeading>

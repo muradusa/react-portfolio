@@ -30,7 +30,7 @@ function About() {
             </p>
           </div>
           <Tech />
-          <div className="github">
+          {/* <div className="github">
             <img
               style={{
                 height: "100px",
@@ -40,7 +40,7 @@ function About() {
               src="http://ghchart.rshah.org/1D7912/muradusa"
               alt="Murad Cholukov's Github"
             />
-          </div>
+          </div> */}
         </div>
 
         <div className="about__photo">
