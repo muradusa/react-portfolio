@@ -3,6 +3,7 @@ import "./Contact.css";
 import contactImage from "./images/Me.png";
 import ArrowUpwardIcon from "@material-ui/icons/ArrowUpward";
 import { Link } from "react-scroll";
+import InstagramEmbed from "react-instagram-embed";
 
 function Contact() {
   return (
@@ -63,7 +64,7 @@ function Contact() {
           duration={500}
         >
           <ArrowUpwardIcon fontSize="large" />
-          <h3>To The Top</h3>
+          <p>To The Top</p>
         </Link>
       </div>
     </div>
