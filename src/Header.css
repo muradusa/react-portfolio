@@ -16,7 +16,7 @@
 }
 
 .header__left {
-  padding: 10px;
+  padding: 10px 10px 10px 40px;
   font-size: 50px;
   color: green;
 }
@@ -27,7 +27,7 @@
 .header__right {
   display: flex;
   align-items: baseline;
-  padding: 10px;
+  padding: 10px 40px 10px 10px;
   font-size: 20px;
   /* font-family: poppin; */
 }
