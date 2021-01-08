@@ -2,8 +2,6 @@ import React, { useEffect, useState } from "react";
 import "./Header.css";
 import { Link } from "react-scroll";
 
-//Delete later
-
 function Header() {
   const [show, handleShow] = useState(false);
 
