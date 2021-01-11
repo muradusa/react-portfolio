@@ -4,7 +4,7 @@
 
 .image {
   display: flex;
-  flex: 0.56;
+  flex: 0.5;
   min-height: fit-content;
   min-width: 450px;
 }
@@ -19,7 +19,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  flex: 0.44;
+  flex: 0.5;
 }
 
 .info__title p {
