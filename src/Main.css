@@ -15,7 +15,8 @@
   justify-content: flex-end;
   align-items: center;
   color: white;
-  height: 90vh;
+  height: 79vh;
+  /* padding-bottom: 140px; */
 }
 
 .MuiSvgIcon-root {
@@ -47,8 +48,9 @@
   position: static;
   flex-direction: column;
   flex: 0.1;
-  height: 90vh;
+  height: 79vh;
   color: white;
+  /* background-color: yellow; */
 }
 
 .email {

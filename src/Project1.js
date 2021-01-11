@@ -1,6 +1,6 @@
 import React from "react";
 import "./Project.css";
-import project1 from "./images/netflix-clone.PNG";
+import project1 from "./images/All-Things-Turkmen.png";
 import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 import GitHubIcon from "@material-ui/icons/GitHub";
 
@@ -12,7 +12,7 @@ function Project1() {
       </div>
       <div className="info">
         <div className="info__title">
-          <p>Facebook Clone</p>
+          <p>All Things Turkmen</p>
         </div>
         <div className="info__description">
           <ul className="experience__item">
@@ -42,8 +42,15 @@ function Project1() {
           <p>Node.js</p>
         </div>
         <div className="info__social">
-          <ExitToAppIcon />
-          <GitHubIcon />
+          <a target="_blank" href="https://clone-5e751.web.app/">
+            <ExitToAppIcon />
+          </a>
+          <a
+            target="_blank"
+            href="https://github.com/muradusa/all-things-turkmen-React"
+          >
+            <GitHubIcon />
+          </a>
         </div>
       </div>
     </div>

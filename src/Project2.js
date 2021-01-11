@@ -1,6 +1,6 @@
 import React from "react";
 import "./ProjectO.css";
-import project from "./images/amazon.png";
+import project from "./images/USA-TM-Chat.png";
 import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 import GitHubIcon from "@material-ui/icons/GitHub";
 
@@ -9,7 +9,7 @@ function Project2() {
     <div className="project">
       <div className="info__O">
         <div className="info__title">
-          <p>Facebook Clone</p>
+          <p>USA-TM-Chat</p>
         </div>
         <div className="info__description">
           <p>
@@ -25,8 +25,15 @@ function Project2() {
           <p>Node.js</p>
         </div>
         <div className="info__social">
-          <ExitToAppIcon />
-          <GitHubIcon />
+          <a target="_blank" href="https://discord-clone-9079e.web.app/">
+            <ExitToAppIcon />
+          </a>
+          <a
+            target="_blank"
+            href="https://github.com/muradusa/USA-TM-Chat-react-firebase"
+          >
+            <GitHubIcon />
+          </a>
         </div>
       </div>
       <div className="image">

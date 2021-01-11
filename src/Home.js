@@ -7,15 +7,18 @@ function Home() {
     <div className="home">
       <div className="home__hero">
         <p>
-          <span className="greeting">Hi, my name is</span> <br />{" "}
+          <span className="greeting">Hi, my name is</span> <br />
           <span className="animatedText">MURAD CHOLUKOV.</span>
         </p>
-        <p>I build things for the web.</p>
-        <p className="hero__text">
+        <p className="home__description">
+          I am a full-stack web developer, who loves building things for the
+          web.
+        </p>
+        {/* <p className="hero__text">
           I'm a software engineer based in San Francisco, CA specializing in
           building (and occasionally designing) exceptional websites,
           applications, and everything in between.
-        </p>
+        </p> */}
         <Link
           activeClass="active"
           to="contact"

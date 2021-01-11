@@ -8,6 +8,13 @@
   justify-content: center;
   height: 90vh;
   font-size: 50px;
+  padding-top: 70px;
+}
+
+.home__description {
+  /* font-family: monospace; */
+  color: rgb(158, 185, 160);
+  padding-top: 50px;
 }
 
 .hero__text {
@@ -38,6 +45,7 @@
   font-family: monospace;
   color: rgb(158, 185, 160);
   font-size: 26px;
+  padding-bottom: 50px;
 }
 .animatedText {
   /* position: absolute;
@@ -48,6 +56,7 @@
   font-family: verdana;
   font-size: 60px;
   font-weight: 700;
+
   /* color: green;
   text-shadow: 1px 1px 1px white, 1px 2px 1px white, 1px 3px 1px white,
     1px 4px 1px white, 1px 5px 1px white, 1px 6px 1px white, 1px 7px 1px white,

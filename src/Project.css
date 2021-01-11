@@ -5,11 +5,14 @@
 .image {
   display: flex;
   flex: 0.56;
+  min-height: fit-content;
+  min-width: 450px;
 }
 
 .image img {
   width: 100%;
-  height: 400px;
+
+  object-fit: contain;
 }
 
 .info {

@@ -2,8 +2,11 @@
   color: rgb(209, 202, 202);
   background-color: rgb(19, 17, 17);
   padding-left: 40px;
-
-  max-width: 1480px;
+  /* 
+  max-width: 1480px; */
+  max-width: 1520px;
+  margin-left: auto;
+  margin-right: auto;
   width: 100%;
 }
 
