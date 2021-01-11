@@ -50,13 +50,11 @@
   align-items: flex-start;
   justify-content: center;
   width: 100%;
-  background-color: yellow;
 }
 
 .about__photo img {
   display: flex;
 
-  background-color: rgb(205, 228, 215);
   display: flex;
   position: relative;
   /* height: 100%; */
@@ -104,4 +102,17 @@
   display: flex;
   flex: 1;
   /* justify-content: center; */
+}
+
+@media screen and (min-width: 813px) and (max-width: 1302px) {
+}
+
+@media screen and (min-width: 375px) and (max-width: 812px) {
+  .about__photo {
+    width: 0;
+  }
+
+  .about__photoImg {
+    width: 0;
+  }
 }

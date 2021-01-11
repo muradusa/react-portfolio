@@ -44,7 +44,7 @@ function About() {
         </div>
 
         <div className="about__photo">
-          <img src={myImg} alt="" />
+          <img className="about__photoImg" src={myImg} alt="" />
         </div>
       </div>
     </div>

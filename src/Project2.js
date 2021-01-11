@@ -37,7 +37,7 @@ function Project2() {
         </div>
       </div>
       <div className="image">
-        <img src={project} alt="Project Image" />
+        <img className="project__image" src={project} alt="Project Image" />
       </div>
     </div>
   );

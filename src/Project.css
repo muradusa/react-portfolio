@@ -63,3 +63,13 @@
   font-family: monospace;
   color: rgb(158, 185, 160);
 }
+
+@media screen and (min-width: 300px) and (max-width: 900px) {
+  .image {
+    width: 0;
+  }
+
+  .project__image {
+    width: 0;
+  }
+}

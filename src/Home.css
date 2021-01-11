@@ -17,12 +17,18 @@
   padding-top: 50px;
 }
 
-.hero__text {
-  font-family: monospace;
-  color: rgb(158, 185, 160);
-  font-size: 18px;
-  width: 70%;
-  padding-top: 50px;
+.home__social {
+  padding-top: 40px;
+}
+
+.MuiSvgIcon-root {
+  padding-right: 20px;
+  /* color: rgb(158, 185, 160); */
+  color: white;
+  font-size: xx-large !important;
+}
+.MuiSvgIcon-root:hover {
+  color: green;
 }
 
 .home__hero button {
@@ -30,15 +36,17 @@
   color: green;
   background-color: transparent;
   border: 1px solid white;
-  font-size: 16px;
-  width: 140px;
-  margin-top: 50px;
+  font-size: 24px;
+  width: 180px;
+  margin-top: 30px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .home__hero button:hover {
   color: white;
   border: 1px solid green;
+  cursor: pointer;
 }
 
 .greeting {

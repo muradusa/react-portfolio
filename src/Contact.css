@@ -164,9 +164,9 @@
     display: flex;
   }
 
-  .contact__image {
+  /* .contact__image {
     width: 0;
-  }
+  } */
 
   .contact__form {
     margin: 0;

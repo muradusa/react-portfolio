@@ -7,67 +7,12 @@
   background-color: rgb(19, 17, 17);
 }
 
-.main__left {
-  display: flex;
-  position: sticky;
-  flex-direction: column;
-  flex: 0.1;
-  justify-content: flex-end;
-  align-items: center;
-  color: white;
-  height: 79vh;
-  /* padding-bottom: 140px; */
-}
-
-.MuiSvgIcon-root {
-  padding: 15px;
-  color: white;
-}
-.MuiSvgIcon-root:hover {
-  color: green;
-}
-.line {
-  height: 100px;
-  border-left: 2px solid white;
-  padding-top: 50px;
-  margin-top: 25px;
-}
-
 .main__center {
   display: flex;
   flex-direction: column;
   flex: 1;
-  padding-left: 150px;
+  padding-left: 40px;
   padding-right: 150px;
   /* overflow: scroll; */
   padding-bottom: 100px;
-}
-
-.main__right {
-  display: flex;
-  position: static;
-  flex-direction: column;
-  flex: 0.1;
-  height: 79vh;
-  color: white;
-  /* background-color: yellow; */
-}
-
-.email {
-  display: flex;
-  flex: 1;
-  writing-mode: vertical-rl;
-  letter-spacing: 2px;
-  font-size: 16px;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 15px;
-}
-
-.email:hover {
-  color: green;
-}
-.main__right span {
-  position: relative;
-  left: 49%;
 }
