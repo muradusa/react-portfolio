@@ -4,7 +4,7 @@ import "./Footer.css";
 function Footer() {
   return (
     <div className="footer">
-      <p>Murad Webdev © 2021 - All Rights Are Reserved</p>
+      <p>Designed & Built by Murad Cholukov © 2021</p>
     </div>
   );
 }
