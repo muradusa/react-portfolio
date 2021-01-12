@@ -18,7 +18,7 @@ function Projects() {
         <Project2 />
         <Project3 />
       </div>
-      <div className="projects__other">
+      {/* <div className="projects__other">
         <div className="projects__otherTitle">
           <p>Other Things I Built</p>
         </div>
@@ -84,7 +84,7 @@ function Projects() {
             />
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

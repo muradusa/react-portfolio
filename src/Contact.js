@@ -63,7 +63,7 @@ function Contact() {
           offset={-10}
           duration={500}
         >
-          <ArrowUpwardIcon fontSize="large" />
+          <ArrowUpwardIcon className="arrowUpwardIcon" fontSize="large" />
           <p>To The Top</p>
         </Link>
       </div>

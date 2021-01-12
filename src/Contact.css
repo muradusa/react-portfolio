@@ -133,6 +133,11 @@
   font-size: large;
 }
 
+.arrowUpwardIcon {
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
 /* .instagram__embed {
   height: 100px;
   width: 100px;
