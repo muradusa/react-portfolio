@@ -8,7 +8,9 @@ function Project3() {
   return (
     <div className="project">
       <div className="image">
-        <img className="project__image" src={project3} alt="Project Image" />
+        <a target="_blank" href="https://facebook-clone-dfa38.web.app/">
+          <img className="project__image" src={project3} alt="Project Image" />
+        </a>
       </div>
       <div className="info">
         <div className="info__title">

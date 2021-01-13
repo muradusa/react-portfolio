@@ -78,3 +78,36 @@
     1px 18px 6px rgba(16, 16, 16, 0.4), 1px 22px 10px rgba(16, 16, 16, 0.2),
     1px 25px 35px rgba(16, 16, 16, 0.2), 1px 30px 60px rgba(16, 16, 16, 0.4);
 }
+
+@media screen and (max-width: 730px) {
+  .home__hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90vh;
+    font-size: 30px;
+    padding-top: 70px;
+  }
+
+  .MuiSvgIcon-root {
+    padding-right: 20px;
+    /* color: rgb(158, 185, 160); */
+    color: white;
+    font-size: x-large !important;
+  }
+  .MuiSvgIcon-root:hover {
+    color: green;
+  }
+
+  .home__hero button {
+    padding: 8px;
+    color: green;
+    background-color: transparent;
+    border: 1px solid white;
+    font-size: 18px;
+    width: 140px;
+    margin-top: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}

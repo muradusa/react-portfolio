@@ -45,7 +45,9 @@ function Project2() {
         </div>
       </div>
       <div className="image">
-        <img className="project__image" src={project} alt="Project Image" />
+        <a target="_blank" href="https://discord-clone-9079e.web.app/">
+          <img className="project__image" src={project} alt="Project Image" />
+        </a>
       </div>
     </div>
   );

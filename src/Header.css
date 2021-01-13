@@ -3,8 +3,9 @@
   align-items: center;
   justify-content: space-between;
   /* max-width: 1520px; */
-  height: 80px;
-  background-color: transparent;
+  /* height: 80px; */
+  /* max-height: 110px; */
+  background-color: rgb(19, 17, 17);
   position: fixed;
   top: 0;
   width: 100%;
@@ -13,10 +14,11 @@
 
 .header__scroll {
   background-color: rgb(24, 24, 36);
+  border-bottom: 1px solid green;
 }
 
 .header__left {
-  padding: 10px 10px 10px 40px;
+  padding: 10px 10px 20px 40px;
   font-size: 50px;
   color: green;
 }
@@ -58,4 +60,12 @@
 .header__right button:hover {
   color: white;
   border: 1px solid green;
+}
+
+@media screen and (max-width: 730px) {
+  .header__right {
+    display: flex;
+    flex-direction: column;
+    /* height: 120px; */
+  }
 }
