@@ -6,6 +6,7 @@
   /* height: 80px; */
   /* max-height: 110px; */
   background-color: rgb(19, 17, 17);
+
   position: fixed;
   top: 0;
   width: 100%;
@@ -13,7 +14,8 @@
 }
 
 .header__scroll {
-  background-color: rgb(24, 24, 36);
+  /* background-color: rgb(24, 24, 36); */
+  background-color: rgb(52, 52, 75);
   border-bottom: 1px solid green;
 }
 

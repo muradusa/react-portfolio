@@ -43,6 +43,9 @@
   align-items: flex-end;
   justify-content: space-evenly;
   color: rgb(209, 202, 202);
+  background-color: rgb(52, 52, 75);
+  border-radius: 10px;
+  padding: 10px;
 }
 
 .info__tech {

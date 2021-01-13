@@ -1,9 +1,17 @@
 .footer {
-  display: grid;
-  place-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 80px;
-  background-color: rgb(24, 24, 36);
+  background-color: rgb(52, 52, 75);
   color: white;
   font-size: 16px;
   font-weight: 300;
+  border-top: 1px solid green;
+  padding-bottom: 30px;
+}
+
+.home__socialFooter {
+  margin-bottom: 20px;
 }
