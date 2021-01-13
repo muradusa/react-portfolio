@@ -25,7 +25,7 @@
   padding-right: 20px;
   /* color: rgb(158, 185, 160); */
   color: white;
-  font-size: xx-large !important;
+  font-size: x-large !important;
 }
 .MuiSvgIcon-root:hover {
   color: green;
@@ -36,8 +36,8 @@
   color: green;
   background-color: transparent;
   border: 1px solid white;
-  font-size: 24px;
-  width: 180px;
+  font-size: 20px;
+  width: 150px;
   margin-top: 30px;
   border-radius: 5px;
   cursor: pointer;
