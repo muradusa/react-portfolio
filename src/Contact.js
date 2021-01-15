@@ -20,12 +20,7 @@ function Contact() {
         </h1>
         <span className="titleLine"></span>
       </div>
-      <div className="contact__hero">
-        <p>
-          I am open for new opportunities. Whether you have a question or just
-          want to say hi, feel free to connect.
-        </p>
-      </div>
+      <div className="contact__hero"></div>
       <div
         className="contact__body"
         style={{
@@ -76,10 +71,9 @@ function Contact() {
             </a>
           </div>
         </div>
-        {/* <div
-          className="contact__image"
-          style={{ backgroundImage: `url(${contactImage}` }}
-        ></div> */}
+        <div className="contact__text">
+          <p>I am open for new opportunities. Let's connect.</p>
+        </div>
       </div>
       <div className="upArrow">
         <Link
