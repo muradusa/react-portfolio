@@ -1,14 +1,15 @@
 .tech {
   display: flex;
   flex-direction: column;
-  /* justify-content: center;
-  align-items: center; */
-  padding: 20px 10px;
+  /* justify-content: center; */
+  justify-content: flex-start;
+  padding-top: 20px;
+
   gap: 20px;
 }
 
 .tech h2 {
-  font-family: monospace;
+  /* font-family: monospace; */
   color: rgb(212, 238, 214);
   font-size: 20px;
   font-weight: 500;

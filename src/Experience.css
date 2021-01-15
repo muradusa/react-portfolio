@@ -1,7 +1,6 @@
 .experience {
   display: flex;
   flex-direction: column;
-  /* flex: 1; */
   max-width: 1520px;
   margin-left: auto;
   margin-right: auto;

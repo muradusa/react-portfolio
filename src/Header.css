@@ -14,10 +14,8 @@
 }
 
 .header__scroll {
-  /* background-color: rgb(24, 24, 36); */
   background-image: linear-gradient(rgb(19, 17, 17), rgb(52, 52, 75));
   opacity: 0.92;
-  /* border-bottom: 1px solid green; */
 }
 
 .header__left {
@@ -52,8 +50,8 @@
 
 .header__right button {
   padding: 8px;
-  color: green;
-  background-color: transparent;
+  color: white;
+  background-image: linear-gradient(rgb(19, 17, 17), rgb(52, 52, 75));
   border: 1px solid white;
   font-size: 16px;
   border-radius: 5px;

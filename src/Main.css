@@ -4,7 +4,18 @@
   max-width: 1520px;
   margin-left: auto;
   margin-right: auto;
-  background-color: rgb(19, 17, 17);
+  /* background-color: rgb(19, 17, 17); */
+  background-image: linear-gradient(
+    rgb(19, 17, 17),
+    rgb(19, 17, 17),
+    rgb(19, 17, 17),
+    rgb(44, 44, 56),
+    rgb(44, 44, 56),
+    rgb(19, 17, 17),
+    rgb(19, 17, 17),
+    rgb(19, 17, 17)
+  );
+  border-radius: 20px;
 }
 
 .main__center {

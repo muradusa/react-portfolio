@@ -62,7 +62,7 @@ function Project1() {
           </a>
           <a
             target="_blank"
-            href="https://github.com/muradusa/all-things-turkmen-React"
+            href="https://github.com/muradusa/All-Things-Turkmen"
           >
             {/* <p>GitHub Repo</p> */}
             <GitHubIcon />
