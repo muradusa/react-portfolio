@@ -108,4 +108,12 @@
   .project__image {
     width: 0;
   }
+
+  .info__tech img {
+    height: 30px;
+    width: 30px;
+    object-fit: contain;
+    padding-left: 4px;
+    padding-right: 4px;
+  }
 }

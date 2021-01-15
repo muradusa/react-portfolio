@@ -20,7 +20,7 @@ function Contact() {
         </h1>
         <span className="titleLine"></span>
       </div>
-      <div className="contact__hero"></div>
+
       <div
         className="contact__body"
         style={{
@@ -85,7 +85,6 @@ function Contact() {
           duration={500}
         >
           <ArrowUpwardIcon className="arrowUpwardIcon" fontSize="30px" />
-          {/* <p>Up</p> */}
         </Link>
       </div>
     </div>

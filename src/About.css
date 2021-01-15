@@ -14,7 +14,7 @@
 .about__info {
   display: flex;
   flex-direction: column;
-  font-family: monospace;
+  font-family: cursive;
   /* color: rgb(158, 185, 160); */
   font-size: 18px;
 }

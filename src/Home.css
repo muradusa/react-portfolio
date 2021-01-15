@@ -12,7 +12,7 @@
 }
 
 .home__description {
-  /* font-family: monospace; */
+  font-family: cursive;
   color: rgb(158, 185, 160);
   padding-top: 50px;
 }
@@ -53,6 +53,7 @@
   /* font-family: monospace; */
   color: rgb(158, 185, 160);
   font-size: 26px;
+  font-family: cursive;
   padding-bottom: 50px;
 }
 .animatedText {
@@ -61,16 +62,11 @@
   right: 50%; */
   transform: translate(20%, -50%);
   text-transform: uppercase;
-  font-family: verdana;
+
+  font-family: cursive;
   font-size: 60px;
   font-weight: 500;
 
-  /* color: green;
-  text-shadow: 1px 1px 1px white, 1px 2px 1px white, 1px 3px 1px white,
-    1px 4px 1px white, 1px 5px 1px white, 1px 6px 1px white, 1px 7px 1px white,
-    1px 8px 1px white, 1px 9px 1px white, 1px 10px 1px white,
-    1px 18px 6px rgba(16, 16, 16, 0.4), 1px 22px 10px rgba(16, 16, 16, 0.2),
-    1px 25px 35px rgba(16, 16, 16, 0.2), 1px 30px 60px rgba(16, 16, 16, 0.4); */
   color: white;
   text-shadow: 1px 1px 1px green, 1px 2px 1px green, 1px 3px 1px green,
     1px 4px 1px green, 1px 5px 1px green, 1px 6px 1px green, 1px 7px 1px green,
@@ -85,7 +81,7 @@
     flex-direction: column;
     justify-content: center;
     height: 90vh;
-    font-size: 30px;
+    font-size: 25px;
     padding-top: 70px;
   }
 
