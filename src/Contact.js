@@ -85,7 +85,7 @@ function Contact() {
           duration={500}
         >
           <ArrowUpwardIcon className="arrowUpwardIcon" fontSize="30px" />
-          <p>To The Top</p>
+          {/* <p>Up</p> */}
         </Link>
       </div>
     </div>

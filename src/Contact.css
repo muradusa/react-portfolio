@@ -158,7 +158,7 @@
   padding-top: 20px;
   color: white;
   cursor: pointer;
-  max-width: 100px;
+  max-width: 130px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
@@ -166,12 +166,13 @@
 }
 
 .upArrow p {
-  font-size: large;
+  font-size: 24px;
 }
 
-.arrowUpwardIcon {
-  padding-left: 20px;
+.arrowUpwardIcon > .MuiSvgIcon-root {
+  /* padding-left: 20px; */
   padding-bottom: 10px;
+  /* size: xx-large; */
 }
 
 /* .instagram__embed {
