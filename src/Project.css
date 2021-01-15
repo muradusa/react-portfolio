@@ -1,6 +1,8 @@
 .project {
   display: flex;
   padding: 20px;
+  background-image: linear-gradient(to left, rgb(36, 36, 44), rgb(19, 17, 17));
+  border-radius: 15px;
 }
 
 .image {
@@ -24,12 +26,23 @@
 }
 
 .info__title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.info__titleMain {
   font-size: 25px;
   font-weight: 600;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
   font-family: monospace;
   color: rgb(212, 238, 214);
 }
+
+.info__titleSub {
+  font-size: 20px;
+}
+
 .info__title:hover {
   color: green;
 }
@@ -43,7 +56,7 @@
   align-items: flex-end;
   justify-content: space-evenly;
   color: rgb(209, 202, 202);
-  background-color: rgb(52, 52, 75);
+  border: 1px solid rgb(52, 52, 75);
   border-radius: 10px;
   padding: 10px;
 }
@@ -58,6 +71,16 @@
   margin-left: 8px;
   font-family: monospace;
   color: rgb(158, 185, 160);
+}
+.info__tech img {
+  height: 40px;
+  width: 40px;
+  object-fit: contain;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.info__tech img:hover {
+  transform: scale(1.1);
 }
 
 @media screen and (min-width: 300px) and (max-width: 900px) {
@@ -74,6 +97,11 @@
   .info__O {
     display: flex;
     flex: 1;
+    align-items: flex-start;
+  }
+
+  .info__title {
+    display: flex;
     align-items: flex-start;
   }
 

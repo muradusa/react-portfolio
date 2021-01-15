@@ -4,6 +4,11 @@ import contactImage from "./images/Me.png";
 import ArrowUpwardIcon from "@material-ui/icons/ArrowUpward";
 import { Link } from "react-scroll";
 import InstagramEmbed from "react-instagram-embed";
+import contactBanner from "./images/contact-us-banner.png";
+import InstagramIcon from "@material-ui/icons/Instagram";
+import TwitterIcon from "@material-ui/icons/Twitter";
+import GitHubIcon from "@material-ui/icons/GitHub";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
 
 function Contact() {
   return (
@@ -21,11 +26,12 @@ function Contact() {
           want to say hi, feel free to connect.
         </p>
       </div>
-      <div className="contact__body">
-        <div
-          className="contact__image"
-          style={{ backgroundImage: `url(${contactImage}` }}
-        ></div>
+      <div
+        className="contact__body"
+        style={{
+          backgroundImage: `url(${contactBanner}`,
+        }}
+      >
         <div className="contact__form">
           <form name="contact" action="/contact" method="post">
             <input type="hidden" name="form-name" value="contact" />
@@ -52,7 +58,28 @@ function Contact() {
               Send
             </button>
           </form>
+          <div className="home__social contact__social">
+            <a target="_blank" href="https://github.com/muradusa/">
+              <GitHubIcon />
+            </a>
+            <a target="_blank" href="https://www.instagram.com/murad_webdev/">
+              <InstagramIcon />
+            </a>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/muradcholukov/"
+            >
+              <LinkedInIcon />
+            </a>
+            <a target="_blank" href="https://twitter.com/muradusa">
+              <TwitterIcon />
+            </a>
+          </div>
         </div>
+        {/* <div
+          className="contact__image"
+          style={{ backgroundImage: `url(${contactImage}` }}
+        ></div> */}
       </div>
       <div className="upArrow">
         <Link
@@ -63,7 +90,7 @@ function Contact() {
           offset={-10}
           duration={500}
         >
-          <ArrowUpwardIcon className="arrowUpwardIcon" fontSize="large" />
+          <ArrowUpwardIcon className="arrowUpwardIcon" fontSize="30px" />
           <p>To The Top</p>
         </Link>
       </div>

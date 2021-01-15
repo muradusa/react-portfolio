@@ -30,15 +30,20 @@
 }
 
 .title {
-  background-color: rgb(52, 52, 75);
+  background-image: linear-gradient(to right, rgb(35, 35, 48), rgb(19, 17, 17));
   font-family: monospace;
   color: rgb(212, 238, 214);
   font-size: 20px;
   padding: 10px;
-  border: 1px solid green;
   margin: 1px;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.title:focus {
+  /* background-image: linear-gradient(to left, rgb(52, 52, 75), rgb(19, 17, 17)); */
+  outline: none;
+  border: 1px solid green;
 }
 
 .date {

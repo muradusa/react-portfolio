@@ -15,12 +15,13 @@
 
 .header__scroll {
   /* background-color: rgb(24, 24, 36); */
-  background-color: rgb(52, 52, 75);
-  border-bottom: 1px solid green;
+  background-image: linear-gradient(rgb(19, 17, 17), rgb(52, 52, 75));
+  opacity: 0.92;
+  /* border-bottom: 1px solid green; */
 }
 
 .header__left {
-  padding: 10px 10px 20px 40px;
+  padding: 0px 0px 10px 40px;
   font-size: 50px;
   color: green;
 }

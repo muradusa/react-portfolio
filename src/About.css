@@ -1,6 +1,8 @@
 .about {
   color: rgb(209, 202, 202);
-  background-color: rgb(19, 17, 17);
+  /* background-color: rgb(19, 17, 17); */
+  background-image: linear-gradient(to left, rgb(52, 52, 75), rgb(19, 17, 17));
+  border-radius: 15px;
   padding-left: 40px;
 
   max-width: 1480px;
@@ -40,9 +42,7 @@
 
 .about__section {
   display: flex;
-  /* flex-direction: column; */
   color: rgb(209, 202, 202);
-  /* justify-content: space-between; */
 }
 
 .about__photo {
