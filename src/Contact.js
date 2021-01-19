@@ -53,23 +53,6 @@ function Contact() {
               Send
             </button>
           </form>
-          {/* <div className="home__social contact__social">
-            <a target="_blank" href="https://github.com/muradusa/">
-              <GitHubIcon />
-            </a>
-            <a target="_blank" href="https://www.instagram.com/murad_webdev/">
-              <InstagramIcon />
-            </a>
-            <a
-              target="_blank"
-              href="https://www.linkedin.com/in/muradcholukov/"
-            >
-              <LinkedInIcon />
-            </a>
-            <a target="_blank" href="https://twitter.com/muradusa">
-              <TwitterIcon />
-            </a>
-          </div> */}
         </div>
         <div className="contact__text">
           <p>I am open for new opportunities. Let's connect.</p>
