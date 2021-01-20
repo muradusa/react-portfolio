@@ -2,6 +2,7 @@
   display: flex;
   padding: 20px;
   background-image: linear-gradient(to left, rgb(36, 36, 44), rgb(19, 17, 17));
+
   border-radius: 15px;
 }
 
@@ -35,8 +36,8 @@
   font-size: 25px;
   font-weight: 600;
   margin-bottom: 15px;
-  font-family: monospace;
-  color: rgb(212, 238, 214);
+  font-family: serif;
+  color: whitesmoke;
 }
 
 .info__titleSub {

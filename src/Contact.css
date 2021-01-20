@@ -15,7 +15,7 @@
 
 .titleLine {
   width: 150px;
-  border-top: 1px solid rgb(36, 46, 65);
+  border-top: 2px solid royalblue;
   transform: translateY(-5px);
 }
 
@@ -162,8 +162,9 @@
   max-width: 130px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 30px;
-  margin-top: 30px;
+  /* margin-bottom: 30px; */
+  margin-top: 10px;
+  padding-bottom: 30px;
 }
 
 .upArrow p {

@@ -53,7 +53,7 @@
 .title:focus {
   /* background-image: linear-gradient(to left, rgb(52, 52, 75), rgb(19, 17, 17)); */
   outline: none;
-  border: 1px solid green;
+  border: 1px solid royalblue;
 }
 
 .date {
@@ -64,7 +64,7 @@
 }
 
 .experience__item {
-  font-family: monospace;
+  font-family: serif;
 
   font-size: 16px;
   /* background-color: rgb(13, 17, 23); */
