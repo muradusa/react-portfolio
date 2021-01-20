@@ -1,5 +1,6 @@
 .home {
-  color: white;
+  color: rgb(36, 46, 65);
+  font-family: serif;
 }
 
 .home__hero {
@@ -12,8 +13,6 @@
 }
 
 .home__description {
-  font-family: cursive;
-  color: rgb(158, 185, 160);
   padding-top: 50px;
 }
 
@@ -24,16 +23,16 @@
 .MuiSvgIcon-root {
   padding-right: 20px;
   /* color: rgb(158, 185, 160); */
-  color: white;
-  font-size: x-large !important;
+  color: rgb(36, 46, 65);
+  font-size: xx-large !important;
 }
 .MuiSvgIcon-root:hover {
-  color: green;
+  color: royalblue;
 }
 
 .home__hero button {
   padding: 8px;
-  color: green;
+  color: royalblue;
   background-image: linear-gradient(rgb(19, 17, 17), rgb(52, 52, 75, 0.8));
   border: 1px solid white;
   font-size: 20px;
@@ -45,15 +44,13 @@
 
 .home__hero button:hover {
   color: white;
-  border: 1px solid green;
+  border: 1px solid royalblue;
   cursor: pointer;
 }
 
 .greeting {
-  /* font-family: monospace; */
-  color: rgb(158, 185, 160);
   font-size: 26px;
-  font-family: cursive;
+
   padding-bottom: 50px;
 }
 .animatedText {
@@ -63,16 +60,16 @@
   transform: translate(20%, -50%);
   text-transform: uppercase;
 
-  font-family: cursive;
   font-size: 60px;
   font-weight: 500;
 
-  color: white;
-  text-shadow: 1px 1px 1px green, 1px 2px 1px green, 1px 3px 1px green,
-    1px 4px 1px green, 1px 5px 1px green, 1px 6px 1px green, 1px 7px 1px green,
-    1px 8px 1px green, 1px 9px 1px green, 1px 10px 1px green,
+  color: rgb(36, 46, 65);
+  /* text-shadow: 1px 1px 1px royalblue, 1px 2px 1px royalblue,
+    1px 3px 1px royalblue, 1px 3px 1px royalblue, 1px 3px 1px royalblue,
+    1px 6px 1px royalblue, 1px 7px 1px royalblue, 1px 8px 1px royalblue,
+    1px 9px 1px royalblue, 1px 10px 1px royalblue,
     1px 18px 6px rgba(16, 16, 16, 0.4), 1px 22px 10px rgba(16, 16, 16, 0.2),
-    1px 25px 35px rgba(16, 16, 16, 0.2), 1px 30px 60px rgba(16, 16, 16, 0.4);
+    1px 25px 35px rgba(16, 16, 16, 0.2), 1px 30px 60px rgba(16, 16, 16, 0.4); */
 }
 
 @media screen and (max-width: 730px) {
@@ -92,12 +89,12 @@
     font-size: x-large !important;
   }
   .MuiSvgIcon-root:hover {
-    color: green;
+    color: royalblue;
   }
 
   .home__hero button {
     padding: 8px;
-    color: green;
+    color: royalblue;
     background-color: transparent;
     border: 1px solid white;
     font-size: 18px;

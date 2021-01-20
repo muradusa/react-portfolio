@@ -4,6 +4,8 @@
   color: white;
 
   border-radius: 15px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   padding-left: 40px;
   padding-right: 40px;
   max-width: 1520px;
@@ -14,8 +16,6 @@
 .about__info {
   display: flex;
   flex-direction: column;
-  font-family: cursive;
-  /* color: rgb(158, 185, 160); */
   font-size: 18px;
 }
 .about__header {
@@ -29,7 +29,7 @@
 .about__section {
   display: flex;
   background-image: linear-gradient(to left, rgb(48, 48, 65), rgb(19, 17, 17));
-  color: rgb(209, 202, 202);
+
   border-radius: 10px;
   padding-top: 10px;
   padding-bottom: 10px;

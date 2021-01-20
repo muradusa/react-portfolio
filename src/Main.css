@@ -6,17 +6,23 @@
   margin-right: auto;
   /* background-color: rgb(19, 17, 17); */
   background-image: linear-gradient(
+    to right,
+    rgb(207, 207, 241),
+    rgb(231, 228, 228)
+  );
+  /* background-image: linear-gradient(
     rgb(19, 17, 17),
     rgb(19, 17, 17),
     rgb(19, 17, 17),
     rgb(19, 17, 17),
     rgb(44, 44, 56),
-    /* rgb(44, 44, 56), */ rgb(19, 17, 17),
+   
+     rgb(19, 17, 17),
     rgb(19, 17, 17),
     rgb(19, 17, 17),
     rgb(19, 17, 17)
-  );
-  border-radius: 20px;
+  ); */
+  border-radius: 5px;
 }
 
 .main__center {

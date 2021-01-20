@@ -1,4 +1,4 @@
-// import React from "react";
+import React from "react";
 
 import {
   Accordion,
@@ -15,7 +15,7 @@ function Experience() {
   return (
     <div className="experience" id="experience">
       <div className="experience__header">
-        <span style={{ color: "green", fontSize: "25px" }}>02.</span>
+        <span style={{ color: "royalblue", fontSize: "25px" }}>02.</span>
         <h1 style={{ paddingLeft: "15px", paddingRight: "15px" }}>
           Experience
         </h1>
@@ -101,9 +101,7 @@ function Experience() {
             </ul>
           </AccordionItemPanel>
         </AccordionItem>
-        {/* </div> */}
       </Accordion>
-      );
     </div>
   );
 }

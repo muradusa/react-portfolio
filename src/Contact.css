@@ -4,19 +4,23 @@
   max-width: 1520px;
   margin-left: auto;
   margin-right: auto;
-
+  background-image: linear-gradient(
+    to right,
+    rgb(207, 207, 241),
+    rgb(231, 228, 228)
+  );
   padding-left: 40px;
   padding-right: 40px;
 }
 
 .titleLine {
   width: 150px;
-  border-top: 1px solid white;
+  border-top: 1px solid rgb(36, 46, 65);
   transform: translateY(-5px);
 }
 
 .contact__header {
-  color: white;
+  color: rgb(36, 46, 65);
   display: flex;
 
   align-items: baseline;
@@ -32,8 +36,8 @@
 }
 
 .contact__hero p {
-  font-family: monospace;
-  color: rgb(158, 185, 160);
+  font-family: serif;
+  color: whitesmoke;
   font-size: 16px;
 }
 
@@ -53,16 +57,10 @@
   width: 60%;
   padding-left: 200px;
 
-  color: white;
+  color: rgb(36, 46, 65);
   background-image: linear-gradient(
     to left,
-    rgba(20, 20, 24, 0.8),
-    rgba(20, 20, 24, 0.7),
-    rgba(20, 20, 24, 0.7),
-    rgba(20, 20, 24, 0.7),
-    rgba(20, 20, 24, 0.6),
-    rgba(20, 20, 24, 0.5),
-    rgba(80, 80, 92, 0)
+    rgb(255, 255, 255) rgb(31, 26, 26)
   );
   /* background-color: rgba(33, 33, 43, 0.9); */
 }
@@ -84,18 +82,18 @@
 
 .contact__form form input:focus {
   outline: none;
-  border: 1px solid green;
+  border: 1px solid royalblue;
 }
 .contact__form form textarea:focus {
   outline: none;
-  border: 1px solid green;
+  border: 1px solid royalblue;
 }
 
 .contact__form p {
   padding-bottom: 7px;
   margin-left: 5px;
-  font-family: monospace;
-  color: rgb(158, 185, 160);
+  font-family: serif;
+  color: whitesmoke;
   font-size: 16px;
 }
 .contact__form input {
@@ -123,7 +121,7 @@
   width: 98%;
   margin-bottom: 5px;
   /* padding: 10px; */
-  color: green;
+  color: royalblue;
   /* background-color: rgb(19, 17, 17); */
   background-image: linear-gradient(rgb(19, 17, 17), rgb(52, 52, 75));
   border: 1px solid white;
@@ -132,7 +130,7 @@
 }
 .contact__button:hover {
   color: white;
-  border: 1px solid green;
+  border: 1px solid royalblue;
 }
 
 .form {

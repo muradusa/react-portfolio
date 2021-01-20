@@ -5,7 +5,7 @@
   /* max-width: 1520px; */
   /* height: 80px; */
   /* max-height: 110px; */
-  background-color: rgb(19, 17, 17);
+  background-color: rgb(37, 37, 46);
 
   position: fixed;
   top: 0;
@@ -21,10 +21,10 @@
 .header__left {
   padding: 0px 0px 10px 40px;
   font-size: 50px;
-  color: green;
+  color: whitesmoke;
 }
 .header__left:hover {
-  color: white;
+  color: royalblue;
 }
 
 .header__right {
@@ -42,15 +42,15 @@
 }
 
 .header__right p:hover {
-  color: green;
+  color: royalblue;
 }
 .header__right span {
-  color: green;
+  color: royalblue;
 }
 
 .header__right button {
   padding: 8px;
-  color: green;
+  color: royalblue;
   background-image: linear-gradient(rgb(19, 17, 17), rgb(52, 52, 75));
   border: 1px solid white;
   font-size: 16px;
@@ -60,7 +60,7 @@
 
 .header__right button:hover {
   color: white;
-  border: 1px solid green;
+  border: 1px solid royalblue;
 }
 
 @media screen and (max-width: 730px) {

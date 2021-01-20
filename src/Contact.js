@@ -14,7 +14,7 @@ function Contact() {
   return (
     <div className="contact" id="contact">
       <div className="contact__header">
-        <span style={{ color: "green", fontSize: "25px" }}>04.</span>
+        <span style={{ color: "royalblue", fontSize: "25px" }}>04.</span>
         <h1 style={{ paddingLeft: "15px", paddingRight: "15px" }}>
           Get In Touch
         </h1>

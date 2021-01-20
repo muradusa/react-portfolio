@@ -19,7 +19,7 @@ function Header() {
   return (
     <div className={`header ${show && "header__scroll"}`}>
       <div className="header__left">
-        <span className="animatedText">MC</span>
+        <span>MC</span>
       </div>
       <div className="header__right">
         <Link
