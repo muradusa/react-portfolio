@@ -19,8 +19,8 @@
 }
 
 .header__left {
-  padding: 0px 0px 10px 40px;
-  font-size: 50px;
+  padding: 10px 0px 10px 40px;
+  font-size: 60px;
   color: whitesmoke;
 }
 .header__left:hover {
