@@ -9,7 +9,7 @@ import Experience from "./Experience";
 import Main from "./Main";
 import Footer from "./Footer";
 
-//Delete later
+//Gotta finish this soon
 
 function App() {
   return (
