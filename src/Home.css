@@ -16,9 +16,15 @@
   font-size: 50px;
   padding-top: 70px;
 }
+.greeting {
+  font-size: 26px;
+  padding-bottom: 50px;
+}
 
 .name {
   color: royalblue;
+  font-size: 60px;
+  font-weight: 500;
 }
 
 .home__description {
@@ -56,30 +62,6 @@
   color: royalblue;
   border: 1px solid white;
   cursor: pointer;
-}
-
-.greeting {
-  font-size: 26px;
-
-  padding-bottom: 50px;
-}
-.animatedText {
-  /* position: absolute;
-  top: 50%;
-  right: 50%; */
-  transform: translate(20%, -50%);
-  text-transform: uppercase;
-
-  font-size: 60px;
-  font-weight: 500;
-
-  color: rgb(36, 46, 65);
-  /* text-shadow: 1px 1px 1px royalblue, 1px 2px 1px royalblue,
-    1px 3px 1px royalblue, 1px 3px 1px royalblue, 1px 3px 1px royalblue,
-    1px 6px 1px royalblue, 1px 7px 1px royalblue, 1px 8px 1px royalblue,
-    1px 9px 1px royalblue, 1px 10px 1px royalblue,
-    1px 18px 6px rgba(16, 16, 16, 0.4), 1px 22px 10px rgba(16, 16, 16, 0.2),
-    1px 25px 35px rgba(16, 16, 16, 0.2), 1px 30px 60px rgba(16, 16, 16, 0.4); */
 }
 
 @media screen and (max-width: 730px) {
