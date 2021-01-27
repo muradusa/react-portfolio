@@ -12,7 +12,7 @@ function Home() {
       <div className="home__hero">
         <p>
           <span className="greeting">Hi, my name is</span> <br />
-          <span className="animatedText">MURAD CHOLUKOV</span>
+          <span className="name">MURAD CHOLUKOV</span>
         </p>
         <p className="home__description">
           I am a full-stack web developer, who loves building things for the

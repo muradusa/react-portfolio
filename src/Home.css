@@ -17,6 +17,10 @@
   padding-top: 70px;
 }
 
+.name {
+  color: royalblue;
+}
+
 .home__description {
   padding-top: 50px;
 }
@@ -28,18 +32,19 @@
 .MuiSvgIcon-root {
   padding-right: 20px;
   /* color: rgb(158, 185, 160); */
-  color: rgb(36, 46, 65);
-  font-size: xx-large !important;
+  color: royalblue;
+  font-size: x-large !important;
 }
 .MuiSvgIcon-root:hover {
-  color: royalblue;
+  color: rgb(36, 46, 65);
 }
 
 .home__hero button {
   padding: 8px;
-  color: royalblue;
+  color: whitesmoke;
+  border: 1px solid royalblue;
   background-image: linear-gradient(rgb(19, 17, 17), rgb(52, 52, 75, 0.8));
-  border: 1px solid white;
+
   font-size: 20px;
   width: 150px;
   margin-top: 30px;
@@ -48,8 +53,8 @@
 }
 
 .home__hero button:hover {
-  color: white;
-  border: 1px solid royalblue;
+  color: royalblue;
+  border: 1px solid white;
   cursor: pointer;
 }
 
@@ -87,19 +92,22 @@
     padding-top: 180px;
   }
 
+  .name {
+    font-size: 38px;
+  }
   .MuiSvgIcon-root {
     padding-right: 20px;
     /* color: rgb(158, 185, 160); */
-    color: white;
+    color: royalblue;
     font-size: x-large !important;
   }
   .MuiSvgIcon-root:hover {
-    color: royalblue;
+    color: rgb(36, 46, 65);
   }
 
   .home__hero button {
     padding: 8px;
-    color: royalblue;
+    color: whitesmoke;
     background-color: transparent;
     border: 1px solid white;
     font-size: 18px;

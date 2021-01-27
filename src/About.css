@@ -78,7 +78,7 @@
 
   .about__info {
     display: flex;
-
+    padding: 10px;
     flex: 1;
   }
 }

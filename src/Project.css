@@ -37,15 +37,20 @@
   font-weight: 600;
   margin-bottom: 15px;
   font-family: serif;
+
   color: whitesmoke;
+}
+
+.info__titleMain:hover {
 }
 
 .info__titleSub {
   font-size: 20px;
+  color: royalblue;
 }
 
 .info__title:hover {
-  color: green;
+  color: royalblue;
 }
 
 .svg {

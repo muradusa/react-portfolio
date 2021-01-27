@@ -18,3 +18,10 @@
   /* overflow: scroll; */
   padding-bottom: 100px;
 }
+
+@media screen and (max-width: 730px) {
+  .main__center {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}

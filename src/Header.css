@@ -21,10 +21,10 @@
 .header__left {
   padding: 10px 0px 10px 40px;
   font-size: 60px;
-  color: whitesmoke;
+  color: royalblue;
 }
 .header__left:hover {
-  color: royalblue;
+  color: whitesmoke;
 }
 
 .header__right {
