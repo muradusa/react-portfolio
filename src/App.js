@@ -9,8 +9,6 @@ import Experience from "./Experience";
 import Main from "./Main";
 import Footer from "./Footer";
 
-//Gotta finish this soon
-
 function App() {
   return (
     <div className="app">
