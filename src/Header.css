@@ -35,6 +35,10 @@
   /* font-family: poppin; */
 }
 
+.resume {
+  text-decoration: none;
+}
+
 .header__right p {
   padding-right: 10px;
   color: white;
