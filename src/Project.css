@@ -6,6 +6,16 @@
   border-radius: 15px;
 }
 
+.project .MuiSvgIcon-root {
+  padding: 10px;
+  color: royalblue;
+  transform: scale(1.2);
+}
+
+.project .MuiSvgIcon-root:hover {
+  color: whitesmoke;
+}
+
 .image {
   display: flex;
   flex: 0.5;

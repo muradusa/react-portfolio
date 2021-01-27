@@ -4,6 +4,14 @@
   background-image: linear-gradient(to right, rgb(36, 36, 44), rgb(19, 17, 17));
   border-radius: 15px;
 }
+.projectO .MuiSvgIcon-root {
+  padding: 10px;
+  color: royalblue;
+  transform: scale(1.2);
+}
+.projectO .MuiSvgIcon-root:hover {
+  color: whitesmoke;
+}
 
 .info__O {
   display: flex;

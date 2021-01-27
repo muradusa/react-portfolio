@@ -22,7 +22,7 @@
 }
 
 .name {
-  color: royalblue;
+  color: rgb(31, 70, 187);
   font-size: 60px;
   font-weight: 500;
 }
@@ -35,14 +35,16 @@
   padding-top: 40px;
 }
 
-.MuiSvgIcon-root {
+.home .MuiSvgIcon-root {
   padding-right: 20px;
   /* color: rgb(158, 185, 160); */
-  color: royalblue;
+  color: rgb(31, 70, 187);
   font-size: x-large !important;
+  transform: scale(1.1);
 }
-.MuiSvgIcon-root:hover {
+.home .MuiSvgIcon-root:hover {
   color: rgb(36, 46, 65);
+  transform: scale(1.4);
 }
 
 .home__hero button {

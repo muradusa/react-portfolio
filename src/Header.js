@@ -39,7 +39,7 @@ function Header() {
           to="experience"
           spy={true}
           smooth={true}
-          offset={-70}
+          offset={-50}
           duration={500}
         >
           <p>
@@ -51,7 +51,7 @@ function Header() {
           to="projects"
           spy={true}
           smooth={true}
-          offset={-70}
+          offset={-100}
           duration={500}
         >
           <p>
@@ -63,7 +63,7 @@ function Header() {
           to="contact"
           spy={true}
           smooth={true}
-          offset={-10}
+          offset={-50}
           duration={500}
         >
           <p>

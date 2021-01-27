@@ -53,27 +53,27 @@ function Contact() {
               <button type="submit" className="contact__button">
                 Send
               </button>
+              <div className="contact__social">
+                <a target="_blank" href="https://github.com/muradusa/">
+                  <GitHubIcon />
+                </a>
+                <a
+                  target="_blank"
+                  href="https://www.instagram.com/murad_webdev/"
+                >
+                  <InstagramIcon />
+                </a>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/muradcholukov/"
+                >
+                  <LinkedInIcon />
+                </a>
+                <a target="_blank" href="https://twitter.com/muradusa">
+                  <TwitterIcon />
+                </a>
+              </div>
             </form>
-          </div>
-          <div className="contact__text">
-            <p>I am open for new opportunities. Let's connect.</p>
-            <div className="contact__social">
-              <a target="_blank" href="https://github.com/muradusa/">
-                <GitHubIcon />
-              </a>
-              <a target="_blank" href="https://www.instagram.com/murad_webdev/">
-                <InstagramIcon />
-              </a>
-              <a
-                target="_blank"
-                href="https://www.linkedin.com/in/muradcholukov/"
-              >
-                <LinkedInIcon />
-              </a>
-              <a target="_blank" href="https://twitter.com/muradusa">
-                <TwitterIcon />
-              </a>
-            </div>
           </div>
         </div>
         <div className="upArrow">
