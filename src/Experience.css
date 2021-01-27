@@ -1,15 +1,21 @@
-.experience {
+.main__experience {
   display: flex;
-  flex-direction: column;
-  max-width: 1520px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 40px;
+  /* height: fit-content; */
   background-image: linear-gradient(
     to right,
     rgb(207, 207, 241),
     rgb(231, 228, 228)
   );
+}
+
+.experience {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  max-width: 1520px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 40px;
 
   padding-left: 40px;
   padding-right: 40px;
