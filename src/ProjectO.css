@@ -19,6 +19,7 @@
   align-items: flex-start;
   justify-content: space-around;
   flex: 0.5;
+  padding-right: 20px;
 }
 
 .info__O:hover {
