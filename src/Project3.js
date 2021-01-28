@@ -32,15 +32,13 @@ function Project3() {
         <div className="info__description">
           <ul className="experience__item">
             <li>
-              Worked with a team of three designers to build a marketing website
+              Social Network site built with React and Material UI for
+              client-side and powered by Firebase for backend.
             </li>
+            <li>Utilizes user login/authentication.</li>
             <li>
-              Helped solidify a brand direction for blistabloc that spans both
-              packaging and web
-            </li>
-            <li>
-              Interfaced with clients on a weekly basis, providing technological
-              expertise
+              Fully functional backend with image uploads and instant chat
+              capabilites.
             </li>
           </ul>
         </div>

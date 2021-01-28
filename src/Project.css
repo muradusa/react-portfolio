@@ -34,6 +34,7 @@
   align-items: flex-end;
   justify-content: space-around;
   flex: 0.5;
+  padding-left: 20px;
 }
 
 .info__title {

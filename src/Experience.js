@@ -27,25 +27,26 @@ function Experience() {
           <AccordionItem>
             <AccordionItemHeading>
               <AccordionItemButton className="title">
-                Freelance Developer
+                Project Engineer
               </AccordionItemButton>
             </AccordionItemHeading>
             <AccordionItemPanel className="panel">
-              <h3 className="company">Murad Webdev Inc</h3>
-              <p className="date">Jan 2018 - April 2020</p>
+              <h3 className="company">W.E. Lyons Construction</h3>
+              <p className="date">March 2019 - Present</p>
               <ul className="experience__item">
                 <li>
-                  Worked with a team of three designers to build a marketing
-                  website and e-commerce platform for blistabloc, an ambitious
-                  startup originating from Northeastern
+                  Successfully provided Project Manager with engineering and
+                  administrative support for successful completion of the
+                  project 2 month ahead of schedule, potentially saving our
+                  company and client $1.4M.
                 </li>
                 <li>
-                  Helped solidify a brand direction for blistabloc that spans
-                  both packaging and web
+                  Built a reputation as a go-to resource among coworkers for
+                  tech and various engineering questions.
                 </li>
                 <li>
-                  Interfaced with clients on a weekly basis, providing
-                  technological expertise
+                  Proactively designed and developed a new & modern website for
+                  our company.
                 </li>
               </ul>
             </AccordionItemPanel>
@@ -53,25 +54,26 @@ function Experience() {
           <AccordionItem>
             <AccordionItemHeading>
               <AccordionItemButton className="title">
-                Project Engineer
+                Wordpress Developer
               </AccordionItemButton>
             </AccordionItemHeading>
             <AccordionItemPanel className="panel">
-              <h3 className="company">W.E. Lyons Construction</h3>
-              <p className="date">Jan 2018 - April 2020</p>
+              <h3 className="company">TMCraft LLC</h3>
+              <p className="date">Oct 2015 - Dec 2018</p>
               <ul className="experience__item">
                 <li>
-                  Worked with a team of three designers to build a marketing
-                  website and e-commerce platform for blistabloc, an ambitious
-                  startup originating from Northeastern
+                  Participated in the full development lifecycle of 17 websites,
+                  working closely with the design team to develop pixel perfect
+                  interfaces using WordPress with Elementor.
                 </li>
                 <li>
-                  Helped solidify a brand direction for blistabloc that spans
-                  both packaging and web
+                  Outperformed colleagues by implementing a customer-first
+                  mindset and an interest in talking with customers to ensure
+                  what we are building meets their needs.
                 </li>
                 <li>
-                  Interfaced with clients on a weekly basis, providing
-                  technological expertise
+                  Demonstrated leadership by mentoring junior devs, accelerating
+                  their development by 30%.
                 </li>
               </ul>
             </AccordionItemPanel>
@@ -83,22 +85,19 @@ function Experience() {
               </AccordionItemButton>
             </AccordionItemHeading>
             <AccordionItemPanel className="panel">
-              <h3 className="company">Halliburton</h3>
-              <p className="date">Jan 2018 - April 2020</p>
+              <h3 className="company">Halliburton Energy Services</h3>
+              <p className="date">Jan 2012 - July 2014</p>
               <ul className="experience__item">
                 <li>
-                  Worked with a team of three designers to build a marketing
-                  website and e-commerce platform for blistabloc, an ambitious
-                  startup originating from Northeastern
+                  Successfully finished junior engineer training program 7
+                  months ahead of projected schedule by independently leading
+                  jobs.
                 </li>
                 <li>
-                  Helped solidify a brand direction for blistabloc that spans
-                  both packaging and web
+                  Trained and mentored 4 newly hired engineers, who went on to
+                  become successful field engineers.
                 </li>
-                <li>
-                  Interfaced with clients on a weekly basis, providing
-                  technological expertise
-                </li>
+                <li>Four times winner of employee of the month award.</li>
               </ul>
             </AccordionItemPanel>
           </AccordionItem>

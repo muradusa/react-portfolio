@@ -1,7 +1,7 @@
 .about {
   display: flex;
   flex-direction: column;
-  color: white;
+  color: rgb(226, 221, 221);
   background-color: rgb(19, 17, 17);
   border-radius: 15px;
   padding-top: 40px;
@@ -23,7 +23,7 @@
   align-items: baseline;
   margin-bottom: 30px;
   font-family: monospace;
-  color: white;
+  color: royalblue;
 }
 
 .about__section {
@@ -39,6 +39,7 @@
   display: flex;
   flex-direction: column;
   flex: 0.65;
+  font-family: monospace;
 }
 
 .about__photo {

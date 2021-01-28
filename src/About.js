@@ -16,17 +16,19 @@ function About() {
         <div className="about__info">
           <div className="about__bio">
             <p>
-              Hello! I'm Murad, a software engineer based in San Francisco, CA.{" "}
-              <br />
-              <br />I enjoy creating things that live on the internet, whether
-              that be websites, applications, or anything in between. My goal is
-              to always build products that provide pixel-perfect, performant
-              experiences.
+              Hello! I'm Murad, an engineer with 8 years of experience based in
+              San Francisco BayArea.
               <br />
               <br />
-              Shortly after graduating from Northeastern University, I joined
-              the engineering team at Upstatement where I work on a wide variety
-              of interesting and meaningful projects on a daily basis.
+              After gettting my engineering degree from Texas Tech University, i
+              worked for Energy and Construction companies, tackling various
+              engineering problems along the way. During this processs, i
+              discovered my passion for coding and creating things that live on
+              the internet.
+              <br />
+              <br />I am a self-taught full stack developer, specializing in
+              React for front end and Firebese/MERN stack for backend. I am open
+              to new opportunities and challenges as a web developer.
             </p>
           </div>
           <Tech />

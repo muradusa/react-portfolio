@@ -38,6 +38,9 @@
 .resume {
   text-decoration: none;
 }
+.header__right button a:active {
+  color: whitesmoke;
+}
 
 .header__right p {
   padding-right: 10px;

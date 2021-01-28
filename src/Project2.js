@@ -23,24 +23,22 @@ function Project2() {
         <div className="info__titleO">
           <p className="info__titleMain">USA-TM Chat</p>
           <p className="info__titleSub">
-            The only social platform where people from USA and Turkmenistan
-            share experiences.
+            The only platform that allows people from USA and Turkmenistan share
+            thoughts and photos.
           </p>
         </div>
 
         <div className="info__description">
           <ul className="experience__item">
             <li>
-              Worked with a team of three designers to build a marketing website
+              Instant messaging web app built with React/Redux and Firebase for
+              backend.
             </li>
             <li>
-              Helped solidify a brand direction for blistabloc that spans both
-              packaging and web
+              Suports a fully functional files/media uploads and renders it
+              instantly on the client side.
             </li>
-            <li>
-              Interfaced with clients on a weekly basis, providing technological
-              expertise
-            </li>
+            <li>Redux was used to create/manage private chat rooms.</li>
           </ul>
         </div>
         <div className="info__tech">
