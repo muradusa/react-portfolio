@@ -35,14 +35,16 @@ function Project1() {
         <div className="info__description">
           <ul className="experience__item">
             <li>
-              E-commerce site built with React and Material UI for client-side
-              and powered by Firebase for backend.
+              E-commerce site built with React/Redux and Material UI for
+              client-side and powered by Firebase for backend.
             </li>
             <li>
               Supports fully functional Stripe payment system and user
               authentication.
             </li>
-            <li>Redux was used to manage user & basket state.</li>
+            <li>
+              Utilizes Firebase Cloud Functions to setup backend Node server
+            </li>
           </ul>
         </div>
 
@@ -57,7 +59,7 @@ function Project1() {
           <img src={trippleIcon} alt="React.js" />
         </div>
         <div className="info__social">
-          <a target="_blank" href="https://clone-5e751.web.app/">
+          <a target="_blank" href="https://all-things-turkmen-4e22c.web.app/">
             <ExitToAppIcon />
           </a>
           <a
