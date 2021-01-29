@@ -20,7 +20,7 @@ function Project1() {
   return (
     <div className="project">
       <div className="image">
-        <a target="_blank" href="https://clone-5e751.web.app/">
+        <a target="_blank" href="https://all-things-turkmen-4e22c.web.app/">
           <img className="project__image" src={project1} alt="Project Image" />
         </a>
       </div>
