@@ -39,13 +39,20 @@
   text-decoration: none;
 }
 .header__right button a:active {
-  color: whitesmoke;
+  color: royalblue;
+}
+.header__right button a {
+  color: rgb(240, 243, 255);
+}
+.header__right button a:hover {
+  color: royalblue;
 }
 
 .header__right p {
   padding-right: 10px;
-  color: white;
+  color: rgb(240, 243, 255);
   cursor: pointer;
+  text-transform: uppercase;
 }
 
 .header__right p:hover {
@@ -57,17 +64,17 @@
 
 .header__right button {
   padding: 8px;
-  color: royalblue;
+  color: rgb(240, 243, 255);
   background-image: linear-gradient(rgb(19, 17, 17), rgb(52, 52, 75));
-  border: 1px solid white;
+  border: 1px solid royalblue;
   font-size: 16px;
   border-radius: 5px;
   cursor: pointer;
 }
 
 .header__right button:hover {
-  color: white;
-  border: 1px solid royalblue;
+  color: whitesmoke;
+  border: 1px solid whitesmoke;
 }
 
 @media screen and (max-width: 730px) {

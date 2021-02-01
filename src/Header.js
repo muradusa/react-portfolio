@@ -31,9 +31,7 @@ function Header() {
           offset={-100}
           duration={500}
         >
-          <p>
-            <span>01.</span> About
-          </p>
+          <p>About</p>
         </Link>
         <Link
           activeClass="active"
@@ -43,9 +41,7 @@ function Header() {
           offset={-50}
           duration={500}
         >
-          <p>
-            <span>02.</span> Experience
-          </p>
+          <p>Experience</p>
         </Link>
         <Link
           activeClass="active"
@@ -55,9 +51,7 @@ function Header() {
           offset={-100}
           duration={500}
         >
-          <p>
-            <span>03.</span> Projects
-          </p>
+          <p>Projects</p>
         </Link>
         <Link
           activeClass="active"
@@ -67,9 +61,7 @@ function Header() {
           offset={-50}
           duration={500}
         >
-          <p>
-            <span>04.</span> Contact
-          </p>
+          <p>Contact</p>
         </Link>
 
         <button>

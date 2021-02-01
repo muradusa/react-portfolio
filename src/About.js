@@ -20,15 +20,15 @@ function About() {
               San Francisco BayArea.
               <br />
               <br />
-              After gettting my engineering degree from Texas Tech University, i
+              After getting my engineering degree from Texas Tech University, i
               worked for Energy and Construction companies, tackling various
-              engineering problems along the way. During this processs, i
+              engineering problems along the way. During this process, i
               discovered my passion for coding and creating things that live on
               the internet.
               <br />
               <br />I am a self-taught full stack developer, specializing in
-              React for front end and Firebese/MERN stack for backend. I am open
-              to new opportunities and challenges as a web developer.
+              React for client side and Firebase/MERN stack for backend. I am
+              open to new opportunities and challenges as a web developer.
             </p>
           </div>
           <Tech />
