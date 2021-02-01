@@ -16,10 +16,8 @@ function Experience() {
     <div className="main__experience">
       <div className="experience" id="experience">
         <div className="experience__header">
-          <span style={{ color: "royalblue", fontSize: "25px" }}>02.</span>
-          <h1 style={{ paddingLeft: "15px", paddingRight: "15px" }}>
-            Experience
-          </h1>
+          {/* <span style={{ color: "royalblue", fontSize: "25px" }}>02.</span> */}
+          <h1 style={{ paddingRight: "15px" }}>Experience</h1>
           <span className="titleLine"></span>
         </div>
         <Accordion className="accordion">
