@@ -8,8 +8,8 @@ function About() {
   return (
     <div className="about" id="about">
       <div className="about__header">
-        {/* <span style={{ color: "royalblue", fontSize: "25px" }}>01.</span> */}
-        <h1 style={{ paddingRight: "15px" }}>About Me</h1>
+        <span style={{ color: "royalblue", fontSize: "25px" }}>01.</span>
+        <h1 style={{ paddingLeft: "15px", paddingRight: "15px" }}>About Me</h1>
         <span className="titleLine"></span>
       </div>
       <div className="about__section">
@@ -27,7 +27,7 @@ function About() {
               the internet.
               <br />
               <br />I am a self-taught full stack developer, specializing in
-              React for client side and Firebase/MERN stack for backend. I'm
+              React for client side and Firebase/MERN stack for backend. I am
               open to new opportunities and challenges as a web developer.
             </p>
           </div>
