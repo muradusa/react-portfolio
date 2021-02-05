@@ -10,17 +10,17 @@
 }
 
 .main__center {
-  display: grid;
-  place-content: center;
-
+  display: flex;
   flex: 1;
+  justify-content: center;
+  align-items: center;
 
-  padding-bottom: 100px;
+  /* padding-bottom: 100px; */
 }
 
 @media screen and (max-width: 730px) {
-  .main__center {
+  /* .main__center {
     padding-right: 30px;
     padding-left: 30px;
-  }
+  } */
 }

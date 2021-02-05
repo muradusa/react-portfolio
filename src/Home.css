@@ -10,7 +10,7 @@
   /* margin-left: auto;
   margin-right: auto; */
   z-index: 50;
-  background-image: linear-gradient(rgb(22, 21, 21, 0.6), rgba(8, 8, 8, 0.5));
+  background-image: linear-gradient(rgba(3, 3, 3, 0.6), rgba(8, 8, 8, 0.5));
 }
 
 .home__hero {
@@ -23,9 +23,11 @@
   height: 90vh;
   font-size: 50px;
   padding-top: 70px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .greeting {
-  /* font-size: 36px; */
+  color: rgb(201, 214, 252);
   padding-bottom: 50px;
 }
 
@@ -53,7 +55,7 @@
   transform: scale(1.1);
 }
 .home .MuiSvgIcon-root:hover {
-  color: rgb(36, 46, 65);
+  color: rgb(87, 121, 224);
   transform: scale(1.4);
 }
 
@@ -87,9 +89,9 @@
 
 @media screen and (max-width: 730px) {
   .home__hero {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; */
     /* height: 90vh; */
     font-size: 25px;
     padding-top: 180px;
