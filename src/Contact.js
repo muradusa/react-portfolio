@@ -15,10 +15,7 @@ function Contact() {
     <div className="main__contact">
       <div className="contact" id="contact">
         <div className="contact__header">
-          <span style={{ color: "royalblue", fontSize: "25px" }}>04.</span>
-          <h1 style={{ paddingLeft: "15px", paddingRight: "15px" }}>
-            Get In Touch
-          </h1>
+          <h1 style={{ paddingRight: "15px" }}>Get In Touch</h1>
           <span className="titleLine"></span>
         </div>
 

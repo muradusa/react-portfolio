@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Header.css";
 import { Link } from "react-scroll";
-import resume from "./images/Murad_Cholukov_resume.pdf";
 
 function Header() {
   const [show, handleShow] = useState(false);
@@ -19,9 +18,7 @@ function Header() {
 
   return (
     <div className={`header ${show && "header__scroll"}`}>
-      <div className="header__left">
-        <span>MC</span>
-      </div>
+      <div className="header__left"></div>
       <div className="header__right">
         <Link
           activeClass="active"
@@ -63,12 +60,6 @@ function Header() {
         >
           <p>Contact</p>
         </Link>
-
-        <button>
-          <a className="resume" href={resume} download>
-            Resume
-          </a>
-        </button>
       </div>
     </div>
   );

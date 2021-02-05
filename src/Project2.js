@@ -50,7 +50,7 @@ function Project2() {
           <img src={trippleIcon} alt="React.js" />
         </div>
         <div className="info__social">
-          <a target="_blank" href="https://discord-clone-9079e.web.app/">
+          <a target="_blank" href="https://cholukov-family-chat.web.app/">
             <ExitToAppIcon />
           </a>
           <a
@@ -62,7 +62,7 @@ function Project2() {
         </div>
       </div>
       <div className="image">
-        <a target="_blank" href="https://discord-clone-9079e.web.app/">
+        <a target="_blank" href="https://cholukov-family-chat.web.app/">
           <img className="project__image" src={project} alt="Project Image" />
         </a>
       </div>

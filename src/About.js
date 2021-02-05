@@ -8,7 +8,7 @@ function About() {
   return (
     <div className="about" id="about">
       <div className="about__header">
-        <span style={{ color: "royalblue", fontSize: "25px" }}>01.</span>
+        {/* <span style={{ color: "royalblue", fontSize: "25px" }}>01.</span> */}
         <h1 style={{ paddingLeft: "15px", paddingRight: "15px" }}>About Me</h1>
         <span className="titleLine"></span>
       </div>

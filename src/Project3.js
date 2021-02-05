@@ -1,6 +1,6 @@
 import React from "react";
 import "./Project.css";
-import project3 from "./images/facebook-clone.PNG";
+import project3 from "./images/facebook-clone.png";
 import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import reactIcon from "./images/react-icon.png";
