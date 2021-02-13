@@ -27,11 +27,15 @@
   color: rgb(201, 214, 252);
   padding-bottom: 50px;
 }
-
+/* @keyframes type {
+  0% { width: 0ch }
+  100% {width: 13ch;}
+}
 .name {
+  animation: type 3s steps(13);
   font-size: 60px;
   font-weight: 500;
-}
+} */
 
 .home__description {
   display: flex;
@@ -58,16 +62,16 @@
 
 .resume {
   text-decoration: none;
-  color: whitesmoke;
+  color: royalblue;
   border: none;
 }
 
 .resume:hover {
-  color: royalblue;
+  color: whitesmoke;
 }
 .home__hero button {
   padding: 8px;
-  color: whitesmoke;
+  color: royalblue;
   border: 1px solid rgb(252, 253, 253);
   background-image: linear-gradient(rgb(19, 17, 17), rgb(52, 52, 75, 0.8));
   margin-right: 5px;
