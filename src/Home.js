@@ -43,7 +43,7 @@ function Home() {
             offset={-10}
             duration={500}
           >
-            <button>Get In Touch</button>
+            <button classname="resume">Get In Touch</button>
           </Link>
           <button>
             <a className="resume" href={resume} download>
